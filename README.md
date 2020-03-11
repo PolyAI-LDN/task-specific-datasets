@@ -6,7 +6,7 @@
 
 ## Datasets
 
-###Banking
+### Banking
 
 Dataset composed of online banking queries annotated with their corresponding intents.
 
@@ -26,16 +26,16 @@ Dataset composed of online banking queries annotated with their corresponding in
 
 ## Citations
 
-When using the banking dataset in your work, please cite INTENT_DETECTION_PAPER:
+When using the banking dataset in your work, please cite [Efficient Intent Detection with Dual Sentence Encoders](https://arxiv.org/pdf/1903.05566.pdf).
 
 ```bibtex
 @inproceedings{Casanueva2020,
-    author      = {I{\~{n}}igo Casanueva and Tadas Temcinas and Matthew Henderson and Daniela Gerz and Ivan Vulic},
-    title       = {TODO},
+    author      = {I{\~{n}}igo Casanueva and Tadas Temcinas and Daniela Gerz and Matthew Henderson and Ivan Vulic},
+    title       = {Efficient Intent Detection with Dual Sentence Encoders},
     year        = {2020},
-    month       = {jul},
-    note        = {Data available at TODO},
-    url         = {TODO},
+    month       = {mar},
+    note        = {Data available at https://github.com/PolyAI-LDN/task-specific-datasets},
+    url         = {https://arxiv.org/abs/2003.04807},
     booktitle   = {Arxiv},
 }
 
