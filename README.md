@@ -26,7 +26,7 @@ Dataset composed of online banking queries annotated with their corresponding in
 
 ## Citations
 
-When using the banking dataset in your work, please cite [Efficient Intent Detection with Dual Sentence Encoders](https://arxiv.org/pdf/1903.05566.pdf).
+When using the banking dataset in your work, please cite [Efficient Intent Detection with Dual Sentence Encoders](https://arxiv.org/abs/2003.04807).
 
 ```bibtex
 @inproceedings{Casanueva2020,
