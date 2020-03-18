@@ -40,3 +40,6 @@ When using the banking dataset in your work, please cite [Efficient Intent Detec
 }
 
 ```
+
+## License
+The datasets shared on this repository are licensed under the license found in the LICENSE file.
