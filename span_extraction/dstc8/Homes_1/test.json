@@ -1,0 +1,6575 @@
+[
+    {
+        "userInput": {
+            "text": "I want to find a 2 bedroom apartment."
+        },
+        "context": {},
+        "id": "3_001110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want something in Fremont."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "3_001112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me something with 2 bathrooms with pets allowed?"
+        },
+        "context": {},
+        "id": "3_001114",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find another?"
+        },
+        "context": {},
+        "id": "3_001116",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it furnished though? What is the phone number?"
+        },
+        "context": {},
+        "id": "3_001118",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah that sounds like the one."
+        },
+        "context": {},
+        "id": "3_0011110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, not now. That'll be all now."
+        },
+        "context": {},
+        "id": "3_0011112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Hey! I will be shifting to Sonoma County in California for my work. It would be great if you can find some nice apartment there?"
+        },
+        "context": {},
+        "id": "3_001120",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please can you find some good one in Sebastopol and I would prefer to have three bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 37,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "3_001122",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Looks, pretty good. Thanks for finding me one nice apartment."
+        },
+        "context": {},
+        "id": "3_001124",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment?"
+        },
+        "context": {},
+        "id": "3_001130",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want an apartment in Fairfield with 1 bedroom."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "3_001132",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "3_001134",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, not right now. That's all I need."
+        },
+        "context": {},
+        "id": "3_001136",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to find an apartment please"
+        },
+        "context": {},
+        "id": "3_001140",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to find one in Concord"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "3_001142",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need 4 bedrooms at least"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "3_001144",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me other apartments where pets are allowed."
+        },
+        "context": {},
+        "id": "3_001146",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me some other apartments, maybe one with three baths."
+        },
+        "context": {},
+        "id": "3_001148",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What's the number of that property?"
+        },
+        "context": {},
+        "id": "3_0011410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that apartment sounds good"
+        },
+        "context": {},
+        "id": "3_0011412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No I don't want to schedule it right now"
+        },
+        "context": {},
+        "id": "3_0011414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No thanks so much"
+        },
+        "context": {},
+        "id": "3_0011416",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment?"
+        },
+        "context": {},
+        "id": "3_001150",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like a one bed room apartment in Fremont."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 37,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "3_001152",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Any other options? I'd like one that allows pets."
+        },
+        "context": {},
+        "id": "3_001154",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That one sounds good."
+        },
+        "context": {},
+        "id": "3_001156",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not at the moment. Thank you, that's all I wanted."
+        },
+        "context": {},
+        "id": "3_001158",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to find somewhere to stay. Can you find me an apartment that allows pets?"
+        },
+        "context": {},
+        "id": "3_001160",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a 4 bedroom apartment in Union City."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "3_001162",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else?"
+        },
+        "context": {},
+        "id": "3_001164",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That works for me."
+        },
+        "context": {},
+        "id": "3_001166",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not at this time. Thank you for everything."
+        },
+        "context": {},
+        "id": "3_001168",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It's hard finding an apartment which allows pets... Can you look for one for me?"
+        },
+        "context": {},
+        "id": "3_001170",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a place in Dublin."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "3_001172",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "2 bedrooms. Also, one bathroom."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "3_001174",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great."
+        },
+        "context": {},
+        "id": "3_001176",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not right now. I still want to look around a bit."
+        },
+        "context": {},
+        "id": "3_001178",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's all, thanks."
+        },
+        "context": {},
+        "id": "3_0011710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to move out. Can you help me find an apartment?"
+        },
+        "context": {},
+        "id": "3_001180",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "In Mountain View."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 16
+                }
+            }
+        ],
+        "id": "3_001182",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Two bedrooms please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "3_001184",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it furnished? What's their phone number?"
+        },
+        "context": {},
+        "id": "3_001186",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds good."
+        },
+        "context": {},
+        "id": "3_001188",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I don't. That's all, thanks."
+        },
+        "context": {},
+        "id": "3_0011810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would be leaving town soon and I need to find an apartment that has four bedrooms."
+        },
+        "context": {},
+        "id": "3_001190",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I plan to go to Hayward."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 23
+                }
+            }
+        ],
+        "id": "3_001192",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great. Thank you. That would be all."
+        },
+        "context": {},
+        "id": "3_001194",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a 2 bedroom apartment in San Jose."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 42,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "3_001200",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah that sounds perfect for me. That's all I wanted thanks."
+        },
+        "context": {},
+        "id": "3_001202",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment."
+        },
+        "context": {},
+        "id": "3_001210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I wanted one in Castro Valley. I need three bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "3_001212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds perfect yes."
+        },
+        "context": {},
+        "id": "3_001214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, not right now thanks. That's all I needed."
+        },
+        "context": {},
+        "id": "3_001216",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment? I only need it to have one bathroom."
+        },
+        "context": {},
+        "id": "3_001220",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for places in Napa."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "3_001222",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need something with two bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "3_001224",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "How about something in Fremont?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "3_001226",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What else is there?"
+        },
+        "context": {},
+        "id": "3_001228",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's a lot cheaper than the other one - great. That's all I need right now."
+        },
+        "context": {},
+        "id": "3_0012210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment."
+        },
+        "context": {},
+        "id": "3_001230",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a 4 bedroom apartment in Hayward."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "3_001232",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is the phone number?"
+        },
+        "context": {},
+        "id": "3_001234",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed? Does it have furniture?"
+        },
+        "context": {},
+        "id": "3_001236",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is perfect. Thank you very much."
+        },
+        "context": {},
+        "id": "3_001238",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I like to find an residence."
+        },
+        "context": {},
+        "id": "3_001240",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want 3 bedroom apartment I found 10 good in the area of Rohnert Park."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 58,
+                    "endIndex": 70
+                }
+            }
+        ],
+        "id": "3_001242",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can we take pets in the Apartment ? Is it a furnished Apartment?"
+        },
+        "context": {},
+        "id": "3_001244",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that apartment looks good. Thank you that's all i want."
+        },
+        "context": {},
+        "id": "3_001246",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment."
+        },
+        "context": {},
+        "id": "3_001250",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like it to be in Milpitas and I want 3 bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "3_001252",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment come furnished, and can you give me the phone number?"
+        },
+        "context": {},
+        "id": "3_001254",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That apartment seems right for me. Thanks, that'll be all."
+        },
+        "context": {},
+        "id": "3_001256",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking to move into a new place. Can you find me an apartment?"
+        },
+        "context": {},
+        "id": "3_001260",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like this apartment to be in San Jose and have four bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "3_001262",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it furnished? What number do I have to call for further questions?"
+        },
+        "context": {},
+        "id": "3_001264",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds like a great apartment. Thank you! I don't need anything else right now."
+        },
+        "context": {},
+        "id": "3_001266",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment with 2 baths."
+        },
+        "context": {},
+        "id": "3_001270",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want it to have three bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "3_001272",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It should be in Concord."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 23
+                }
+            }
+        ],
+        "id": "3_001274",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment come furnished? And what's the apartment's phone number?"
+        },
+        "context": {},
+        "id": "3_001276",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, that seems to fit what I need. I won't be needing any more help."
+        },
+        "context": {},
+        "id": "3_001278",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for apartments."
+        },
+        "context": {},
+        "id": "4_000000",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want an apartment in San Jose."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_000002",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "2 bedrooms, please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000004",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a three bedroom apartment in Livermore?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 54
+                }
+            }
+        ],
+        "id": "4_000006",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That one sounds good. Thanks, that's all I need."
+        },
+        "context": {},
+        "id": "4_000008",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me in finding an apartment?"
+        },
+        "context": {},
+        "id": "4_000010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please search around Hayward and the apartment should have 4 bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "4_000012",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you search for any other apartments with three baths?"
+        },
+        "context": {},
+        "id": "4_000014",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me the contact number and check if there pets allowed?"
+        },
+        "context": {},
+        "id": "4_000016",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you look for any other apartments?"
+        },
+        "context": {},
+        "id": "4_000018",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, That sounds good to me."
+        },
+        "context": {},
+        "id": "4_0000110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No. That will be all. Thank you."
+        },
+        "context": {},
+        "id": "4_0000112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find apartments with three baths please."
+        },
+        "context": {},
+        "id": "4_000020",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "check apartments in Santa Clara"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_000022",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please make sure it has four bed rooms please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000024",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yep that was what I was looking for. thanks"
+        },
+        "context": {},
+        "id": "4_000026",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you help me find an apartment?"
+        },
+        "context": {},
+        "id": "4_000030",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you look in Suisun city?"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "4_000032",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want an apartment with three bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000034",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do they allow pets?"
+        },
+        "context": {},
+        "id": "4_000036",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me some more? I want three baths."
+        },
+        "context": {},
+        "id": "4_000038",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great. Thanks."
+        },
+        "context": {},
+        "id": "4_0000310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I will be traveling out of town soon and I need to find an apartment."
+        },
+        "context": {},
+        "id": "4_000040",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am heading to Berkeley."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "4_000042",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I will be traveling with some friends to Santa Rosa, so I need 4 bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 41,
+                    "endIndex": 51
+                }
+            }
+        ],
+        "id": "4_000044",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds awesome. Thanks a lot. That would be all."
+        },
+        "context": {},
+        "id": "4_000046",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need help finding an apartment."
+        },
+        "context": {},
+        "id": "4_000050",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "In San Jose, one bath."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 11
+                }
+            }
+        ],
+        "id": "4_000052",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Just two."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000054",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it furnished?"
+        },
+        "context": {},
+        "id": "4_000056",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do they allow pets? What's their number?"
+        },
+        "context": {},
+        "id": "4_000058",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That one sounds good. Ok that's all for now."
+        },
+        "context": {},
+        "id": "4_0000510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to find a two bath apartment."
+        },
+        "context": {},
+        "id": "4_000060",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like a three bedroom apartment in Mountain View."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 38,
+                    "endIndex": 51
+                }
+            }
+        ],
+        "id": "4_000062",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What else do you have? Can you look in Novato?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 39,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000064",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "4_000066",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not right now. That's all I need, thanks."
+        },
+        "context": {},
+        "id": "4_000068",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for a four bedroom apartment, can you help me?"
+        },
+        "context": {},
+        "id": "4_000070",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a place in Concord."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 28,
+                    "endIndex": 35
+                }
+            }
+        ],
+        "id": "4_000072",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me something else please?"
+        },
+        "context": {},
+        "id": "4_000074",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, find something else."
+        },
+        "context": {},
+        "id": "4_000076",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are there pets allowed?"
+        },
+        "context": {},
+        "id": "4_000078",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds perfect for us."
+        },
+        "context": {},
+        "id": "4_0000710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I don't actually."
+        },
+        "context": {},
+        "id": "4_0000712",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that will be all."
+        },
+        "context": {},
+        "id": "4_0000714",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to find an apartment, but it needs to have 3 baths. I haven't been able to find much, but maybe you'll have more luck."
+        },
+        "context": {},
+        "id": "4_000080",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find me an apartment with 3 baths, 3 bedrooms, and make sure it's located in San Ramon."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 77,
+                    "endIndex": 86
+                }
+            }
+        ],
+        "id": "4_000082",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds like you found something perfect already. Can you give me their contact number, and let me know real quick if they allow pets?"
+        },
+        "context": {},
+        "id": "4_000084",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Great, that's all I need for now, I'll let you know if I need anything further."
+        },
+        "context": {},
+        "id": "4_000086",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a 3 bathroom apartment."
+        },
+        "context": {},
+        "id": "4_000090",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want a four bedroom apartment in Foster City."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "4_000092",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's it."
+        },
+        "context": {},
+        "id": "4_000094",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that's all. Thanks."
+        },
+        "context": {},
+        "id": "4_000096",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment."
+        },
+        "context": {},
+        "id": "4_000100",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need 2 bedrooms in Santa Rosa."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_000102",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed?"
+        },
+        "context": {},
+        "id": "4_000104",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment have furniture?"
+        },
+        "context": {},
+        "id": "4_000106",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is perfect. Thank you."
+        },
+        "context": {},
+        "id": "4_000108",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you get me a place to live?"
+        },
+        "context": {},
+        "id": "4_000110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I have a large family and need three."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want something in Fremont please."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "4_000114",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Nope, try again."
+        },
+        "context": {},
+        "id": "4_000116",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not acceptable, another please."
+        },
+        "context": {},
+        "id": "4_000118",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'll do it I guess."
+        },
+        "context": {},
+        "id": "4_0001110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I'll think on it."
+        },
+        "context": {},
+        "id": "4_0001112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me look for apartments?"
+        },
+        "context": {},
+        "id": "4_000120",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for a 2 bedroom, somewhere in San Leandro, I've heard the schools there are good."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 42,
+                    "endIndex": 53
+                }
+            }
+        ],
+        "id": "4_000122",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Oh, that's pretty expensive, I'm not sure - can you find some others?"
+        },
+        "context": {},
+        "id": "4_000124",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's still pretty high - is it furnished?"
+        },
+        "context": {},
+        "id": "4_000126",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, can you tell me about another one?"
+        },
+        "context": {},
+        "id": "4_000128",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's a lot better, actually - can you tell me if they allow pets? What's the contact number?"
+        },
+        "context": {},
+        "id": "4_0001210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It's fine, I was only asking because my neighbour right now has a dog that won't be quiet. No pets would be better anyways. This apartment sounds good."
+        },
+        "context": {},
+        "id": "4_0001212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not right now, I'm just going to hold onto that in the meantime. That's all I need for today."
+        },
+        "context": {},
+        "id": "4_0001214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment, and it needs to have 2 baths."
+        },
+        "context": {},
+        "id": "4_000130",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like 2 bedrooms and please search in Palo Alto."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 54
+                }
+            }
+        ],
+        "id": "4_000132",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it furnished."
+        },
+        "context": {},
+        "id": "4_000134",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed and what is the phone number?"
+        },
+        "context": {},
+        "id": "4_000136",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that sounds good. Thank you, that's all I need."
+        },
+        "context": {},
+        "id": "4_000138",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm moving pretty soon, I'd like to find an apartment in Napa. Can you help me?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 57,
+                    "endIndex": 61
+                }
+            }
+        ],
+        "id": "4_000140",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like place that had 2 bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000142",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find some other places for me."
+        },
+        "context": {},
+        "id": "4_000144",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That works for me."
+        },
+        "context": {},
+        "id": "4_000146",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No thank you, not right now."
+        },
+        "context": {},
+        "id": "4_000148",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "4_0001410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to find an apartment."
+        },
+        "context": {},
+        "id": "4_000150",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want an apartment in San Jose with two bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_000152",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you find me anywhere else?"
+        },
+        "context": {},
+        "id": "4_000154",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What's their contact number? Oh, and is it furnished?"
+        },
+        "context": {},
+        "id": "4_000156",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you find me anywhere else?"
+        },
+        "context": {},
+        "id": "4_000158",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds good to me, that's all I need"
+        },
+        "context": {},
+        "id": "4_0001510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to move out of my parents house. Can you help me find an apartment?"
+        },
+        "context": {},
+        "id": "4_000160",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Something with 4 bedrooms in Mountain View."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "4_000162",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds great."
+        },
+        "context": {},
+        "id": "4_000164",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, not right now."
+        },
+        "context": {},
+        "id": "4_000166",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, thanks a lot."
+        },
+        "context": {},
+        "id": "4_000168",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I will be changing the place I live so I want to find an apartment."
+        },
+        "context": {},
+        "id": "4_000170",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like for the apartment to be situated in Fairfield, and for the apartment to have four bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 49,
+                    "endIndex": 58
+                }
+            }
+        ],
+        "id": "4_000172",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Alright, this apartment seem to suit what I want."
+        },
+        "context": {},
+        "id": "4_000174",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Nothing for now. I appreciate it."
+        },
+        "context": {},
+        "id": "4_000176",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I plan to relocate to another part of the city with my sister, and need help finding an apartment with 2 baths."
+        },
+        "context": {},
+        "id": "4_000180",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need an apartment with 2 bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000182",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please look for an apartment in Pleasant Hill."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000184",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is the apartment pet friendly."
+        },
+        "context": {},
+        "id": "4_000186",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment come furnished?"
+        },
+        "context": {},
+        "id": "4_000188",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "The apartment sounds like something I'd be interested in."
+        },
+        "context": {},
+        "id": "4_0001810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I don't want to schedule it for now. Thank you very much. That will be all."
+        },
+        "context": {},
+        "id": "4_0001812",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need your help searching for an apartment."
+        },
+        "context": {},
+        "id": "4_000190",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a 4 bedroom apartment preferably in Sunnyvale,"
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 52
+                }
+            }
+        ],
+        "id": "4_000192",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What else is available with 3 bathrooms?"
+        },
+        "context": {},
+        "id": "4_000194",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can I get their phone number please. Is it a furnished apartment?"
+        },
+        "context": {},
+        "id": "4_000196",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That one seems pretty good."
+        },
+        "context": {},
+        "id": "4_000198",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, not just yet."
+        },
+        "context": {},
+        "id": "4_0001910",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That will be all thank you."
+        },
+        "context": {},
+        "id": "4_0001912",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to find an apartment"
+        },
+        "context": {},
+        "id": "4_000200",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a two bedroom apartment in Newark"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "4_000202",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it fully furnished?"
+        },
+        "context": {},
+        "id": "4_000204",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Ok, can you find me another apartment"
+        },
+        "context": {},
+        "id": "4_000206",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is the phone number and is it furnished."
+        },
+        "context": {},
+        "id": "4_000208",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great thanks"
+        },
+        "context": {},
+        "id": "4_0002010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment."
+        },
+        "context": {},
+        "id": "4_000210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find an apartment in Vacaville."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 28,
+                    "endIndex": 37
+                }
+            }
+        ],
+        "id": "4_000212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like a place with three bedrooms please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do you have the contact number?"
+        },
+        "context": {},
+        "id": "4_000216",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's great. I don't need anything else."
+        },
+        "context": {},
+        "id": "4_000218",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to search for an apartment, I need your help to find best one."
+        },
+        "context": {},
+        "id": "4_000220",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "In need four bed rooms apartment in Vacaville."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000222",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I have to know some details, first get me the phone number of this apartment."
+        },
+        "context": {},
+        "id": "4_000224",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it fully furnished?"
+        },
+        "context": {},
+        "id": "4_000226",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It's Okay, that is fine."
+        },
+        "context": {},
+        "id": "4_000228",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, make it for me."
+        },
+        "context": {},
+        "id": "4_0002210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Make it on March 11th."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 11,
+                    "endIndex": 21
+                }
+            }
+        ],
+        "id": "4_0002212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please change the visit date to day after tomorrow."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "4_0002214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is perfect. Check whether any pets are allowed there."
+        },
+        "context": {},
+        "id": "4_0002216",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all."
+        },
+        "context": {},
+        "id": "4_0002218",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I wish to search for an apartment."
+        },
+        "context": {},
+        "id": "4_000230",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need an apartment in Mountain View. It must be with three bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 36
+                }
+            }
+        ],
+        "id": "4_000232",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. The apartment is nice."
+        },
+        "context": {},
+        "id": "4_000234",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. Please schedule a visit."
+        },
+        "context": {},
+        "id": "4_000236",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I wish to visit on 13th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 37
+                }
+            }
+        ],
+        "id": "4_000238",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Nope. I wish to visit the property on March 10th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 38,
+                    "endIndex": 48
+                }
+            }
+        ],
+        "id": "4_0002310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. It is good. Whether the pets are permitted in the apartment? Is it furnished?"
+        },
+        "context": {},
+        "id": "4_0002312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you so much. That is what I need."
+        },
+        "context": {},
+        "id": "4_0002314",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Hello, could you help me search an apartment?"
+        },
+        "context": {},
+        "id": "4_000240",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, something in Milpitas will be greaat"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "4_000242",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like three bedrooms, thanks."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000244",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is this apartment furnished?"
+        },
+        "context": {},
+        "id": "4_000246",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "May I have their contact number please?"
+        },
+        "context": {},
+        "id": "4_000248",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great! Could you schedule a visit for me please?"
+        },
+        "context": {},
+        "id": "4_0002410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to visit them this Saturday."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "4_0002412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you schedule it on the 6th of March instead?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "4_0002414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great. Could you help me check if pets are allowed in the apartment?"
+        },
+        "context": {},
+        "id": "4_0002416",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No worries, thanks alot!"
+        },
+        "context": {},
+        "id": "4_0002418",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Nope, thanks for your help!"
+        },
+        "context": {},
+        "id": "4_0002420",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to find an apartment where pet are allowed."
+        },
+        "context": {},
+        "id": "4_000250",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want an apartment in San Ramon."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "4_000252",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want it to have four bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000254",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is the apartment furnished? What is it's phone number."
+        },
+        "context": {},
+        "id": "4_000256",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me another apartment?"
+        },
+        "context": {},
+        "id": "4_000258",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I like the sound of that one."
+        },
+        "context": {},
+        "id": "4_0002510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, schedule a visit."
+        },
+        "context": {},
+        "id": "4_0002512",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to visit on the 12th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "4_0002514",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is correct. What is the property's phone number?"
+        },
+        "context": {},
+        "id": "4_0002516",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that is all I needed"
+        },
+        "context": {},
+        "id": "4_0002518",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment?"
+        },
+        "context": {},
+        "id": "4_000260",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "The apartment should have 2 bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000262",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for apartments in Mountain View."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "4_000264",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "How can I contact the property, and is the apartment furnished?"
+        },
+        "context": {},
+        "id": "4_000266",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you search for more apartments, preferably that allow pets?"
+        },
+        "context": {},
+        "id": "4_000268",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would prefer apartments with one bath, can you find me something else?"
+        },
+        "context": {},
+        "id": "4_0002610",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you schedule me a visit to this apartment, it sounds good for me?"
+        },
+        "context": {},
+        "id": "4_0002612",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Schedule the visit for the 12th of March?"
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "4_0002614",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is correct, how can I contact the property?"
+        },
+        "context": {},
+        "id": "4_0002616",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Great, thanks for the help."
+        },
+        "context": {},
+        "id": "4_0002618",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that will be all, thanks."
+        },
+        "context": {},
+        "id": "4_0002620",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to find an apartment."
+        },
+        "context": {},
+        "id": "4_000270",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "In the Mountain View area and should have 1 bedroom."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 7,
+                    "endIndex": 20
+                }
+            }
+        ],
+        "id": "4_000272",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is the apartment furnished and what is their phone number?"
+        },
+        "context": {},
+        "id": "4_000274",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to visit the apartment next Tuesday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 48
+                }
+            }
+        ],
+        "id": "4_000276",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is perfect."
+        },
+        "context": {},
+        "id": "4_000278",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you that is all I needed."
+        },
+        "context": {},
+        "id": "4_0002710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm going to be moving to Campbell pretty soon. Can you find me available apartments there?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "4_000280",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It should have three bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000282",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great! I'd like to set up a visit to Coffeetree Apartments. Is Monday next week good?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 75,
+                    "endIndex": 91
+                }
+            }
+        ],
+        "id": "4_000284",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Now that I think of it, I don't need to wait that long. I'd rather visit on the 2nd."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 76,
+                    "endIndex": 83
+                }
+            }
+        ],
+        "id": "4_000286",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is correct. What number do I need to call? Is the apartment furnished?"
+        },
+        "context": {},
+        "id": "4_000288",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks! I don't need any further help from you on the matter."
+        },
+        "context": {},
+        "id": "4_0002810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment please."
+        },
+        "context": {},
+        "id": "4_000290",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I think two is fine"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000292",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I think San Jose would work well"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 8,
+                    "endIndex": 16
+                }
+            }
+        ],
+        "id": "4_000294",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me another place with two baths"
+        },
+        "context": {},
+        "id": "4_000296",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that sounds great, let's schedule a visit on the 8th of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 70
+                }
+            }
+        ],
+        "id": "4_000298",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to visit on March 7th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "4_0002910",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please. What's the property number?"
+        },
+        "context": {},
+        "id": "4_0002912",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed in the apartment?"
+        },
+        "context": {},
+        "id": "4_0002914",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "OK, got it"
+        },
+        "context": {},
+        "id": "4_0002916",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No not right now"
+        },
+        "context": {},
+        "id": "4_0002918",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking to move to a new apartment. Can you find me a place with two bedrooms please?"
+        },
+        "context": {},
+        "id": "4_000300",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to live in Hayward."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "4_000302",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment come furnished? What is the pet policy of this apartment?"
+        },
+        "context": {},
+        "id": "4_000304",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find some other apartments for me."
+        },
+        "context": {},
+        "id": "4_000306",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That apartment seems to work. Please arrange and appointment to view this apartment."
+        },
+        "context": {},
+        "id": "4_000308",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to view it on the 13th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_0003010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's correct. What is the pet policy of this apartment?"
+        },
+        "context": {},
+        "id": "4_0003012",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, I don't require further help."
+        },
+        "context": {},
+        "id": "4_0003014",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me search for an apartment?"
+        },
+        "context": {},
+        "id": "4_000310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sunnyvale would be great, I like the Santa Clara area in general."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "endIndex": 9
+                }
+            }
+        ],
+        "id": "4_000312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "3 bedrooms, I think. I'd like to have a guest room."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000314",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What's the policy on pets? Is it furnished?"
+        },
+        "context": {},
+        "id": "4_000316",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, what else is available?"
+        },
+        "context": {},
+        "id": "4_000318",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Maybe - I don't know, what else is there?"
+        },
+        "context": {},
+        "id": "4_0003110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, yeah, I'm just looking on my phone and that area looks good to me."
+        },
+        "context": {},
+        "id": "4_0003112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you schedule a viewing for the 14th for me?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "4_0003114",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Actually, let's make it on the 7th, I just realized I'm going to be in the area that day anyways."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "4_0003116",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah, great. Is it furnished?"
+        },
+        "context": {},
+        "id": "4_0003118",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Great, that's it for now."
+        },
+        "context": {},
+        "id": "4_0003120",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm getting evicted and I need to find a new apartment fast. Can you find me some options in San Jose? I'll need a unit with at least 2 baths."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 93,
+                    "endIndex": 101
+                }
+            }
+        ],
+        "id": "4_000320",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "2 bedrooms as well."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000322",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I've heard that place has a lot of bums hanging around outside. Can you find me something else in the area?"
+        },
+        "context": {},
+        "id": "4_000324",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds nice. Does the apartment come furnished?"
+        },
+        "context": {},
+        "id": "4_000326",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, what's the contact phone number?"
+        },
+        "context": {},
+        "id": "4_000328",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I like everything about it so far. Can you schedule a visit to the apartment for me? The 6th of this month would work best."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 94,
+                    "endIndex": 111
+                }
+            }
+        ],
+        "id": "4_0003210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that is all correct. Also, can you tell me if pets are allowed?"
+        },
+        "context": {},
+        "id": "4_0003212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Great, thanks a bunch."
+        },
+        "context": {},
+        "id": "4_0003214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that will be all for now."
+        },
+        "context": {},
+        "id": "4_0003216",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking to move to a new apartment. I'd like a place with two bedrooms."
+        },
+        "context": {},
+        "id": "4_000330",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to live in the San Jose area."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "4_000332",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please tell me the phone number of the property, and the pet policy of the apartment."
+        },
+        "context": {},
+        "id": "4_000334",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That works for me."
+        },
+        "context": {},
+        "id": "4_000336",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, please schedule an appointment on the 4th of March to view this apartment."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 55
+                }
+            }
+        ],
+        "id": "4_000338",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I've changed my mind, I'd like to schedule it on the 6th instead."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 49,
+                    "endIndex": 56
+                }
+            }
+        ],
+        "id": "4_0003310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is correct."
+        },
+        "context": {},
+        "id": "4_0003312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you."
+        },
+        "context": {},
+        "id": "4_0003314",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I do not, thank you."
+        },
+        "context": {},
+        "id": "4_0003316",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like an apartment with two bathrooms"
+        },
+        "context": {},
+        "id": "4_000340",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for the apartment in Santa Rosa"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "4_000342",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "1 baths and 1 bed rooms"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000344",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me another apartment where pets are allowed?"
+        },
+        "context": {},
+        "id": "4_000346",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is the phone number?"
+        },
+        "context": {},
+        "id": "4_000348",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "ok, It's perfect for me"
+        },
+        "context": {},
+        "id": "4_0003410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, please, for Friday next week."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "4_0003412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I confirm? Is the apartment empty or already furnished?"
+        },
+        "context": {},
+        "id": "4_0003414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you so much, It's all!"
+        },
+        "context": {},
+        "id": "4_0003416",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need help finding an apartment."
+        },
+        "context": {},
+        "id": "4_000350",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Lookin Oakland, two beds."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 7,
+                    "endIndex": 14
+                }
+            }
+        ],
+        "id": "4_000352",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That one sounds good."
+        },
+        "context": {},
+        "id": "4_000354",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, on the 11th of March."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 12,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "4_000356",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I want to do it on the 13th of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000358",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, good."
+        },
+        "context": {},
+        "id": "4_0003510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks."
+        },
+        "context": {},
+        "id": "4_0003512",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, thanks."
+        },
+        "context": {},
+        "id": "4_0003514",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find me an apartment"
+        },
+        "context": {},
+        "id": "4_000360",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want 3 bedrooms in Hayward"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "4_000362",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you give the contact details of it?"
+        },
+        "context": {},
+        "id": "4_000364",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is that furnished?"
+        },
+        "context": {},
+        "id": "4_000366",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find me something else, i need two baths"
+        },
+        "context": {},
+        "id": "4_000368",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find me something else"
+        },
+        "context": {},
+        "id": "4_0003610",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thats good, i would like to schedule a visit to it."
+        },
+        "context": {},
+        "id": "4_0003612",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Make it for 14th of this month"
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 12,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "4_0003614",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, thats right"
+        },
+        "context": {},
+        "id": "4_0003616",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, thats all"
+        },
+        "context": {},
+        "id": "4_0003618",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I wish search for an apartment."
+        },
+        "context": {},
+        "id": "4_000370",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need an apartment in Napa. I need apartment with three bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "4_000372",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it a furnished apartment?"
+        },
+        "context": {},
+        "id": "4_000374",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. It is very good."
+        },
+        "context": {},
+        "id": "4_000376",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. Please. I wish to visit on this Saturday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000378",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. It is great."
+        },
+        "context": {},
+        "id": "4_0003710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you so much."
+        },
+        "context": {},
+        "id": "4_0003712",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Nope. Thank you so much."
+        },
+        "context": {},
+        "id": "4_0003714",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment, with three bedrooms."
+        },
+        "context": {},
+        "id": "4_000380",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am searching for apartments in Santa Clara."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "4_000382",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would rather prefer an apartment with 2 baths, can you find me something else?"
+        },
+        "context": {},
+        "id": "4_000384",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is Alderwood Apartments furnished?"
+        },
+        "context": {},
+        "id": "4_000386",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else you can find?"
+        },
+        "context": {},
+        "id": "4_000388",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "How can I contact the property, and are pets allowed?"
+        },
+        "context": {},
+        "id": "4_0003810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, that all sounds good, please schedule me a visit on next Thursday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 58,
+                    "endIndex": 71
+                }
+            }
+        ],
+        "id": "4_0003812",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is correct, quick question is the apartment furnished?"
+        },
+        "context": {},
+        "id": "4_0003814",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks for all the help."
+        },
+        "context": {},
+        "id": "4_0003816",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that will be all, thanks."
+        },
+        "context": {},
+        "id": "4_0003818",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find me an apartment with one bath."
+        },
+        "context": {},
+        "id": "4_000390",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want one bed room."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000392",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find me an apartment in Santa Rosa."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "4_000394",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What else do you have?"
+        },
+        "context": {},
+        "id": "4_000396",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is their contact number?"
+        },
+        "context": {},
+        "id": "4_000398",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That works for me."
+        },
+        "context": {},
+        "id": "4_0003910",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to visit an apartment next Friday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "4_0003912",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want it for the 10th of March."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_0003914",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is right."
+        },
+        "context": {},
+        "id": "4_0003916",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a bunch."
+        },
+        "context": {},
+        "id": "4_0003918",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that is all. Thanks."
+        },
+        "context": {},
+        "id": "4_0003920",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to find an apartment around Petaluma."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "4_000400",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "3 bedrooms please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000402",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds like a great apartment."
+        },
+        "context": {},
+        "id": "4_000404",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I would."
+        },
+        "context": {},
+        "id": "4_000406",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "For Tuesday next week."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 4,
+                    "endIndex": 21
+                }
+            }
+        ],
+        "id": "4_000408",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Actually, I want to visit it on March 7th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "4_0004010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, exactly. Are pets allowed?"
+        },
+        "context": {},
+        "id": "4_0004012",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is is a furnished apartment? What's their phone number?"
+        },
+        "context": {},
+        "id": "4_0004014",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks very much."
+        },
+        "context": {},
+        "id": "4_0004016",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, thanks a lot"
+        },
+        "context": {},
+        "id": "4_0004018",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me an apartment that allows pets?"
+        },
+        "context": {},
+        "id": "4_000410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for a 1 bedroom in Palo Alto."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "4_000412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds promising. I'd like to look it over. Could you schedule a visit on the 10th?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 74,
+                    "endIndex": 82
+                }
+            }
+        ],
+        "id": "4_000414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "On second thought, make it the 12th of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 49
+                }
+            }
+        ],
+        "id": "4_000416",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes. What is there phone number?"
+        },
+        "context": {},
+        "id": "4_000418",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all I need."
+        },
+        "context": {},
+        "id": "4_0004110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Help me find a 3 bed room apartment please"
+        },
+        "context": {},
+        "id": "4_000420",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need it in San Jose"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 21
+                }
+            }
+        ],
+        "id": "4_000422",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me some other apartments?"
+        },
+        "context": {},
+        "id": "4_000424",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that sounds great"
+        },
+        "context": {},
+        "id": "4_000426",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please, pencil me in for the day after tomorrow."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 51
+                }
+            }
+        ],
+        "id": "4_000428",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that sounds good."
+        },
+        "context": {},
+        "id": "4_0004210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is that apartment furnished? And what's the phone number?"
+        },
+        "context": {},
+        "id": "4_0004212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks for that"
+        },
+        "context": {},
+        "id": "4_0004214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No that's all thanks"
+        },
+        "context": {},
+        "id": "4_0004216",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I just got a new job in a new city and I need to find an apartment, can you help?"
+        },
+        "context": {},
+        "id": "4_000430",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I've been thinking about getting something in San Jose."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 54
+                }
+            }
+        ],
+        "id": "4_000432",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Only one, I'm not looking to have a roommate or anything like that."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000434",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds like everything I need, aha. I should be able to afford that easy with my new job as well, it sounds good to me."
+        },
+        "context": {},
+        "id": "4_000436",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yea, that's a great idea. Could you schedule it for the 12th of March?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 56,
+                    "endIndex": 69
+                }
+            }
+        ],
+        "id": "4_000438",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yep, you got it. Can you also give me the contact phone number, and let me know if you can figure out if pets are allowed?"
+        },
+        "context": {},
+        "id": "4_0004310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, cool. Thank you so much, you've made this whole process so much easier then it could have been."
+        },
+        "context": {},
+        "id": "4_0004312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "My lease is up and I need to find a new apartment."
+        },
+        "context": {},
+        "id": "4_000440",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a 1 bedroom and 1 bath apartment in Hayward."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "4_000442",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is they anywhere else? Can I bring a pet? I need a furnished apartment."
+        },
+        "context": {},
+        "id": "4_000444",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "May I have a contact number for the place?"
+        },
+        "context": {},
+        "id": "4_000446",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That apartment is just what I need. I take a look at it Monday next week."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 56,
+                    "endIndex": 72
+                }
+            }
+        ],
+        "id": "4_000448",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's about it."
+        },
+        "context": {},
+        "id": "4_0004410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you very much."
+        },
+        "context": {},
+        "id": "4_0004412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, thanks very much."
+        },
+        "context": {},
+        "id": "4_0004414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Hello! Could you help me search for apartments with 2 baths?"
+        },
+        "context": {},
+        "id": "4_000450",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would prefer an apartment with 3 bed rooms in the Concord area."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 52,
+                    "endIndex": 59
+                }
+            }
+        ],
+        "id": "4_000452",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Any alternative suggestions?"
+        },
+        "context": {},
+        "id": "4_000454",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No thanks, any alternatives? Would prefer one which allows pets."
+        },
+        "context": {},
+        "id": "4_000456",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is this a furnished apartment and how do I contact the property?"
+        },
+        "context": {},
+        "id": "4_000458",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, this apartment is perfect!"
+        },
+        "context": {},
+        "id": "4_0004510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, please do so. Thanks!"
+        },
+        "context": {},
+        "id": "4_0004512",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to visit on the March 8th."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 38
+                }
+            }
+        ],
+        "id": "4_0004514",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you change the visit to Tuesday next week instead?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "4_0004516",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great!"
+        },
+        "context": {},
+        "id": "4_0004518",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a bunch!"
+        },
+        "context": {},
+        "id": "4_0004520",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, that's all the help I need."
+        },
+        "context": {},
+        "id": "4_0004522",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Help me find an apartment"
+        },
+        "context": {},
+        "id": "4_000460",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "2 bed rooms in Foster City is cool."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 15,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "4_000462",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed there? And is it furnished?"
+        },
+        "context": {},
+        "id": "4_000464",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that apartment sounds good. I want to schedule a visit on the 13th of March"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 66,
+                    "endIndex": 79
+                }
+            }
+        ],
+        "id": "4_000466",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes correct. What is the property phone number?"
+        },
+        "context": {},
+        "id": "4_000468",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks for that, that's it for now."
+        },
+        "context": {},
+        "id": "4_0004610",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you help me locate an apartment with 1 bath?"
+        },
+        "context": {},
+        "id": "4_000470",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would prefer an apartment in Hayward with 2 bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 38
+                }
+            }
+        ],
+        "id": "4_000472",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are there any alternatives available?"
+        },
+        "context": {},
+        "id": "4_000474",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "May I have the property's contact number, and do you know if the apartment is furnished or not?"
+        },
+        "context": {},
+        "id": "4_000476",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "This apartment sounds great."
+        },
+        "context": {},
+        "id": "4_000478",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sure, that will be great, please schedule a visit on the 13th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 61
+                }
+            }
+        ],
+        "id": "4_0004710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great!"
+        },
+        "context": {},
+        "id": "4_0004712",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sure, that's all the help I need. Thank you!"
+        },
+        "context": {},
+        "id": "4_0004714",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment please?"
+        },
+        "context": {},
+        "id": "4_000480",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want a three bed room in Antioch"
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "4_000482",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me other apartments?"
+        },
+        "context": {},
+        "id": "4_000484",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed in here?"
+        },
+        "context": {},
+        "id": "4_000486",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is their number?"
+        },
+        "context": {},
+        "id": "4_000488",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that sounds great"
+        },
+        "context": {},
+        "id": "4_0004810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah, March 4th I'm free"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 6,
+                    "endIndex": 15
+                }
+            }
+        ],
+        "id": "4_0004812",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Actually I want something on the 14th of March"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "4_0004814",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please, is it furnished by the way?"
+        },
+        "context": {},
+        "id": "4_0004816",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks so much"
+        },
+        "context": {},
+        "id": "4_0004818",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No that's it for now"
+        },
+        "context": {},
+        "id": "4_0004820",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need an apartment with 2 baths."
+        },
+        "context": {},
+        "id": "4_000490",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Find a Napa apartment."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 7,
+                    "endIndex": 11
+                }
+            }
+        ],
+        "id": "4_000492",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need three bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000494",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is perfect. I would like to schedule a visit to the apartment on the 2nd of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 79,
+                    "endIndex": 96
+                }
+            }
+        ],
+        "id": "4_000496",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, on the 14th of March."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 11,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "4_000498",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, right."
+        },
+        "context": {},
+        "id": "4_0004910",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do they allow pets?"
+        },
+        "context": {},
+        "id": "4_0004912",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you. That is all I needed."
+        },
+        "context": {},
+        "id": "4_0004914",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find an apartment?"
+        },
+        "context": {},
+        "id": "4_000500",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "In Sunnyvale please"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 12
+                }
+            }
+        ],
+        "id": "4_000502",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need 2 bedrooms. Can you look in San Rafael?"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 45
+                }
+            }
+        ],
+        "id": "4_000504",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you see if there's anything else? Just 1 bath is fine."
+        },
+        "context": {},
+        "id": "4_000506",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah that one sounds great actually"
+        },
+        "context": {},
+        "id": "4_000508",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you book a visit to the apartment?"
+        },
+        "context": {},
+        "id": "4_0005010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "The 14th of this month would be ideal"
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 4,
+                    "endIndex": 22
+                }
+            }
+        ],
+        "id": "4_0005012",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Actually can you change it to Tuesday next week?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "4_0005014",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please! Do you know if they accept pets? And can you grab me the phone number please."
+        },
+        "context": {},
+        "id": "4_0005016",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Great, thank you. I don't need anything else."
+        },
+        "context": {},
+        "id": "4_0005018",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to look for a residence."
+        },
+        "context": {},
+        "id": "4_000510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like a residence with three bed rooms in Rohnert Park."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "4_000512",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the residence allow pets? What's the contact number for the place?"
+        },
+        "context": {},
+        "id": "4_000514",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you get me alternative residences?"
+        },
+        "context": {},
+        "id": "4_000516",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Could you get me alternative residences?"
+        },
+        "context": {},
+        "id": "4_000518",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Okay, that residence is perfect for me."
+        },
+        "context": {},
+        "id": "4_0005110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah, I'd like to book a visit."
+        },
+        "context": {},
+        "id": "4_0005112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to go there on March 4th."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "4_0005114",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, I'd like to go there on the 14th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 28,
+                    "endIndex": 36
+                }
+            }
+        ],
+        "id": "4_0005116",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yup, that's fine by me."
+        },
+        "context": {},
+        "id": "4_0005118",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you for your help; that's all."
+        },
+        "context": {},
+        "id": "4_0005120",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I will be moving soon and I need a new apartment."
+        },
+        "context": {},
+        "id": "4_000520",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want a three bed room apartment in Sunnyvale."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 37,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "4_000522",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds good, I'm interested."
+        },
+        "context": {},
+        "id": "4_000524",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I want to schedule a visit."
+        },
+        "context": {},
+        "id": "4_000526",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "If possible the 5th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "4_000528",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds great."
+        },
+        "context": {},
+        "id": "4_0005210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Does the apartment allow pets?"
+        },
+        "context": {},
+        "id": "4_0005212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot, that would be all."
+        },
+        "context": {},
+        "id": "4_0005214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to find an apartment in Fremont."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 38
+                }
+            }
+        ],
+        "id": "4_000530",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Three bedrooms please."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000532",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find another one with 2 bathrooms?"
+        },
+        "context": {},
+        "id": "4_000534",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What's their phone number?"
+        },
+        "context": {},
+        "id": "4_000536",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are pets allowed? Is it furnished?"
+        },
+        "context": {},
+        "id": "4_000538",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds good. I want to schedule a visit."
+        },
+        "context": {},
+        "id": "4_0005310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "For the 4th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 8,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "4_0005312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Actually, I want to visit it on the 5th of March."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 48
+                }
+            }
+        ],
+        "id": "4_0005314",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's it."
+        },
+        "context": {},
+        "id": "4_0005316",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot, that's all."
+        },
+        "context": {},
+        "id": "4_0005318",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to find an apartment please."
+        },
+        "context": {},
+        "id": "4_000540",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need to have two bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000542",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like an apartment in Vacaville."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 38
+                }
+            }
+        ],
+        "id": "4_000544",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Are there any other apartments?"
+        },
+        "context": {},
+        "id": "4_000546",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do they allow pets?"
+        },
+        "context": {},
+        "id": "4_000548",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that sounds good, could we schedule a visit?"
+        },
+        "context": {},
+        "id": "4_0005410",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to see it on the 13th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 48
+                }
+            }
+        ],
+        "id": "4_0005412",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, perfect!"
+        },
+        "context": {},
+        "id": "4_0005414",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you, that's all I need for now."
+        },
+        "context": {},
+        "id": "4_0005416",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm soon relocating and need help finding an apartment."
+        },
+        "context": {},
+        "id": "4_000550",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please find me an apartment with three bedrooms and 2 baths, in San Mateo."
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 64,
+                    "endIndex": 73
+                }
+            }
+        ],
+        "id": "4_000552",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please get me the property's phone number, and find out whether the apartment is furnished."
+        },
+        "context": {},
+        "id": "4_000554",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I like that apartment."
+        },
+        "context": {},
+        "id": "4_000556",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I would like to make an appointment to view the property."
+        },
+        "context": {},
+        "id": "4_000558",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to schedule the visit for the 4th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 39,
+                    "endIndex": 56
+                }
+            }
+        ],
+        "id": "4_0005510",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's correct. One more thing, is the apartment pet friendly?"
+        },
+        "context": {},
+        "id": "4_0005512",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank you very much. That will be all."
+        },
+        "context": {},
+        "id": "4_0005514",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment. Can you help me?"
+        },
+        "context": {},
+        "id": "4_000560",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for something with 1 bedroom."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000562",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I was hoping to find something in Fremont."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "4_000564",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is the phone number of this property? and is it furnished?"
+        },
+        "context": {},
+        "id": "4_000566",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find me something else then."
+        },
+        "context": {},
+        "id": "4_000568",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you find something else?"
+        },
+        "context": {},
+        "id": "4_0005610",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that sounds great. Book a visit, please."
+        },
+        "context": {},
+        "id": "4_0005612",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Next Monday is good for me."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "endIndex": 11
+                }
+            }
+        ],
+        "id": "4_0005614",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's great. Oh, can I ask, is it furnished. Also, I need the phone number."
+        },
+        "context": {},
+        "id": "4_0005616",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thank's very much."
+        },
+        "context": {},
+        "id": "4_0005618",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No. Thanks very much."
+        },
+        "context": {},
+        "id": "4_0005620",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can you give me a hand looking for apartments?"
+        },
+        "context": {},
+        "id": "4_000570",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I think Sunnyvale."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 8,
+                    "endIndex": 17
+                }
+            }
+        ],
+        "id": "4_000572",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need 3 bedrooms"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000574",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That sounds perfect, actually."
+        },
+        "context": {},
+        "id": "4_000576",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah, can you schedule it for March 5th?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "4_000578",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah - hey, is it a furnished apartment?"
+        },
+        "context": {},
+        "id": "4_0005710",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Alright, great. Thanks."
+        },
+        "context": {},
+        "id": "4_0005712",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That's it for now."
+        },
+        "context": {},
+        "id": "4_0005714",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to search for an apartment and please help me to get the best one."
+        },
+        "context": {},
+        "id": "4_000580",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It is better to get an apartment in Pleasant hill, can you find one?"
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 49
+                }
+            }
+        ],
+        "id": "4_000582",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need an apartment with 4 bed rooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000584",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Do you have any other options with less rent?"
+        },
+        "context": {},
+        "id": "4_000586",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Can I get any three bed room apartment?"
+        },
+        "context": {},
+        "id": "4_000588",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that may works. Please get me an appointment to visit there on 9th of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 68,
+                    "endIndex": 85
+                }
+            }
+        ],
+        "id": "4_0005810",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please change the date to the 12th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "4_0005812",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "That is correct and confirmed."
+        },
+        "context": {},
+        "id": "4_0005814",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What is their contact number?"
+        },
+        "context": {},
+        "id": "4_0005816",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Please check whether the apartment was fully furnished."
+        },
+        "context": {},
+        "id": "4_0005818",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all I need."
+        },
+        "context": {},
+        "id": "4_0005820",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Hi, i need a help, i am planing to change my apartment, can you find a good apartment for me?"
+        },
+        "context": {},
+        "id": "4_000590",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It should have three bed rooms and i need apartment in Santa Rosa"
+        },
+        "context": {
+            "requestedSlots": [
+                "area",
+                "number_of_beds"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 55,
+                    "endIndex": 65
+                }
+            }
+        ],
+        "id": "4_000592",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Ok, Find another apartment for me."
+        },
+        "context": {},
+        "id": "4_000594",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Ok, Please Find another apartments for me"
+        },
+        "context": {},
+        "id": "4_000596",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Ok,that one suitable for me"
+        },
+        "context": {},
+        "id": "4_000598",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I am interested to visit there."
+        },
+        "context": {},
+        "id": "4_0005910",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "On 8th of march."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 15
+                }
+            }
+        ],
+        "id": "4_0005912",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No change the date to March 4th"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "4_0005914",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "yes, that seems good for me."
+        },
+        "context": {},
+        "id": "4_0005916",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No, Thank you very much for your help, That's all i need for now"
+        },
+        "context": {},
+        "id": "4_0005918",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for an apartment. Can you help me?"
+        },
+        "context": {},
+        "id": "4_000600",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a three bed room apartment in San Jose."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 47,
+                    "endIndex": 55
+                }
+            }
+        ],
+        "id": "4_000602",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is the apartment furnished?"
+        },
+        "context": {},
+        "id": "4_000604",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that apartment sounds good to me."
+        },
+        "context": {},
+        "id": "4_000606",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, I would like to schedule a visit."
+        },
+        "context": {},
+        "id": "4_000608",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I would like to visit on the 7th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "visit_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "4_0006010",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "No. I would actually like to visit on the 11th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 38,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "4_0006012",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes, that sounds great. What number can I reach them at and are pets allowed in the apartment?"
+        },
+        "context": {},
+        "id": "4_0006014",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot. That is all I need right now."
+        },
+        "context": {},
+        "id": "4_0006016",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I am looking for an apartment please."
+        },
+        "context": {},
+        "id": "4_000610",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "It needs to have three bedrooms."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000612",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I want to see something in Cloverdale."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 37
+                }
+            }
+        ],
+        "id": "4_000614",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah that sounds perfect."
+        },
+        "context": {},
+        "id": "4_000616",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please. I was hoping I could see it Thursday next week."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 58
+                }
+            }
+        ],
+        "id": "4_000618",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yeah that sounds perfect. Are you allowed pets?"
+        },
+        "context": {},
+        "id": "4_0006110",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks so much that was great."
+        },
+        "context": {},
+        "id": "4_0006112",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Help me find an apartment please."
+        },
+        "context": {},
+        "id": "4_000620",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I need a two bedroom apartment in San Jose"
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds",
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "4_000622",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that apartment sounds good!"
+        },
+        "context": {},
+        "id": "4_000624",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes please, try for the 4th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "4_000626",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Yes that's right"
+        },
+        "context": {},
+        "id": "4_000628",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is the apartment furnished by the way."
+        },
+        "context": {},
+        "id": "4_0006210",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "What's the property number, and are pets allowed?"
+        },
+        "context": {},
+        "id": "4_0006212",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot, that's all for now"
+        },
+        "context": {},
+        "id": "4_0006214",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Hello there. I'm looking for an apartment."
+        },
+        "context": {},
+        "id": "4_000630",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Two bedrooms are needed."
+        },
+        "context": {
+            "requestedSlots": [
+                "number_of_beds"
+            ]
+        },
+        "id": "4_000632",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "An apartment in Hayward suits me well."
+        },
+        "context": {
+            "requestedSlots": [
+                "area"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "area",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 23
+                }
+            }
+        ],
+        "id": "4_000634",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'm not so sure about that one. Can you give me other options?"
+        },
+        "context": {},
+        "id": "4_000636",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Is it a furnished apartment? Are pets allowed?"
+        },
+        "context": {},
+        "id": "4_000638",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not so sure about that one, then. Can you look for other apartments?"
+        },
+        "context": {},
+        "id": "4_0006310",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me."
+        },
+        "context": {},
+        "id": "4_0006312",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "I'd like to schedule a visit to Cypress Glen on the 13th of March."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "visit_date",
+                "valueSpan": {
+                    "startIndex": 52,
+                    "endIndex": 65
+                }
+            }
+        ],
+        "id": "4_0006314",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Sounds great. Is it furnished?"
+        },
+        "context": {},
+        "id": "4_0006316",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Much thanks. Looking forward to visiting."
+        },
+        "context": {},
+        "id": "4_0006318",
+        "splitKey": 0.001
+    },
+    {
+        "userInput": {
+            "text": "Not now. Thanks."
+        },
+        "context": {},
+        "id": "4_0006320",
+        "splitKey": 0.001
+    }
+]

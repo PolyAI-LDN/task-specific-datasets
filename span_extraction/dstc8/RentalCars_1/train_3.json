@@ -1,0 +1,1501 @@
+[
+  {
+    "userInput": {
+      "text": "Book me a rental car."
+    },
+    "context": {},
+    "id": "23_000170",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'll pick it up around 10:30 in the morning, keeping it until next Thursday"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 62,
+          "endIndex": 75
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 23,
+          "endIndex": 43
+        }
+      }
+    ],
+    "id": "23_000172",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'll pick it up in New York on March 4th"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 19,
+          "endIndex": 27
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 31,
+          "endIndex": 40
+        }
+      }
+    ],
+    "id": "23_000174",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sounds good"
+    },
+    "context": {},
+    "id": "23_000176",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No not now"
+    },
+    "context": {},
+    "id": "23_000178",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No thanks so much"
+    },
+    "context": {},
+    "id": "23_0001710",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I want to find a rental car for March 6th, pick up in New York."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 54,
+          "endIndex": 62
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 32,
+          "endIndex": 41
+        }
+      }
+    ],
+    "id": "23_000180",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need a pickup time around 18:30 and I will need the car until the 7th."
+    },
+    "context": {
+      "requestedSlots": [
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 28,
+          "endIndex": 33
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 64,
+          "endIndex": 71
+        }
+      }
+    ],
+    "id": "23_000182",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Can you find anything else?"
+    },
+    "context": {},
+    "id": "23_000184",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That would be perfect."
+    },
+    "context": {},
+    "id": "23_000186",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, I don't want to reserve it yet. That's all I need."
+    },
+    "context": {},
+    "id": "23_000188",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "My usual car is being repaired right now. I'm in need of a rental car for the interim."
+    },
+    "context": {},
+    "id": "23_000190",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'll be needing it from March 9th to March 14th."
+    },
+    "context": {
+      "requestedSlots": [
+        "dropoff_date",
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 24,
+          "endIndex": 33
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 37,
+          "endIndex": 47
+        }
+      }
+    ],
+    "id": "23_000192",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'd like to pick it up from Phoenix."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 28,
+          "endIndex": 35
+        }
+      }
+    ],
+    "id": "23_000194",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'll have to pick it up around 4:30 pm."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 31,
+          "endIndex": 38
+        }
+      }
+    ],
+    "id": "23_000196",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sounds great to me."
+    },
+    "context": {},
+    "id": "23_000198",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes, I want to rent this Accord."
+    },
+    "context": {},
+    "id": "23_0001910",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That's all correct. What will it cost me?"
+    },
+    "context": {},
+    "id": "23_0001912",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Thanks for the help."
+    },
+    "context": {},
+    "id": "23_0001914",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, that's all. Thanks for helping."
+    },
+    "context": {},
+    "id": "23_0001916",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need a car for next Thursday"
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 17,
+          "endIndex": 30
+        }
+      }
+    ],
+    "id": "23_000200",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "6 in the evening please."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "endIndex": 16
+        }
+      }
+    ],
+    "id": "23_000202",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "the 5th of March"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 4,
+          "endIndex": 16
+        }
+      }
+    ],
+    "id": "23_000204",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes, from Sacramento, Ca on the 4th of March"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 10,
+          "endIndex": 24
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 32,
+          "endIndex": 44
+        }
+      }
+    ],
+    "id": "23_000206",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much?"
+    },
+    "context": {},
+    "id": "23_000208",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "What else is there, I'd like arrange for it to be picked up in New York."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 63,
+          "endIndex": 71
+        }
+      }
+    ],
+    "id": "23_0002010",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much?"
+    },
+    "context": {},
+    "id": "23_0002012",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Perfect."
+    },
+    "context": {},
+    "id": "23_0002014",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes please do."
+    },
+    "context": {},
+    "id": "23_0002016",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sweet, thanks."
+    },
+    "context": {},
+    "id": "23_0002018",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Awesome, thanks"
+    },
+    "context": {},
+    "id": "23_0002020",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Nope, thanks."
+    },
+    "context": {},
+    "id": "23_0002022",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I have an out-of-town business meeting and would prefer to drive. Please find me a rental car."
+    },
+    "context": {},
+    "id": "23_000210",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'd like to pick it up from Toronto, Canada, and keep it until the 6th of this month."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 28,
+          "endIndex": 43
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 67,
+          "endIndex": 84
+        }
+      }
+    ],
+    "id": "23_000212",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'll be needing the car from the 5th of March around morning 11. Any type will do."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 33,
+          "endIndex": 45
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 53,
+          "endIndex": 63
+        }
+      }
+    ],
+    "id": "23_000214",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much will everything cost?"
+    },
+    "context": {},
+    "id": "23_000216",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sorry, there's been a last-minute change of plans and I have to leave on March 4th. Do you have anything else available then?"
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 73,
+          "endIndex": 82
+        }
+      }
+    ],
+    "id": "23_000218",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much will everything cost?"
+    },
+    "context": {},
+    "id": "23_0002110",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Can I help you with anything else?"
+    },
+    "context": {},
+    "id": "23_0002112",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sounds perfect."
+    },
+    "context": {},
+    "id": "23_0002114",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, not at the moment."
+    },
+    "context": {},
+    "id": "23_0002116",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, you've been very helpful."
+    },
+    "context": {},
+    "id": "23_0002118",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need a rental car."
+    },
+    "context": {},
+    "id": "23_000220",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I want to pick up the rental car from Phoenix until the 7th."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 38,
+          "endIndex": 45
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 52,
+          "endIndex": 59
+        }
+      }
+    ],
+    "id": "23_000222",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like the rental car from March 6th at around evening 6."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_date",
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 33,
+          "endIndex": 42
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 53,
+          "endIndex": 62
+        }
+      }
+    ],
+    "id": "23_000224",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Sounds good!"
+    },
+    "context": {},
+    "id": "23_000226",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, I don't want to reserve it right now."
+    },
+    "context": {},
+    "id": "23_000228",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Nope, thanks for your help."
+    },
+    "context": {},
+    "id": "23_0002210",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need to rent a Full-size car."
+    },
+    "context": {},
+    "id": "23_000230",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need to pick it on Wednesday next week in Portland, OR."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 44,
+          "endIndex": 56
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 21,
+          "endIndex": 40
+        }
+      }
+    ],
+    "id": "23_000232",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need to pick the car up around 2 in the afternoon and keeping it till the 10th of this month."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 76,
+          "endIndex": 94
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 33,
+          "endIndex": 51
+        }
+      }
+    ],
+    "id": "23_000234",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much is the total?"
+    },
+    "context": {},
+    "id": "23_000236",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That is fine."
+    },
+    "context": {},
+    "id": "23_000238",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I want to make the reservation for the car."
+    },
+    "context": {},
+    "id": "23_0002310",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes that is great."
+    },
+    "context": {},
+    "id": "23_0002312",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Thanks, that will be all."
+    },
+    "context": {},
+    "id": "23_0002314",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Hey, I want a car for rent. I need it until the 10th. Can you help me?"
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 44,
+          "endIndex": 52
+        }
+      }
+    ],
+    "id": "23_000240",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I want to get it from SD next Thursday around the afternoon when I'm free, like around afternoon 1:30."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "pickup_date",
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 22,
+          "endIndex": 24
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 25,
+          "endIndex": 38
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 87,
+          "endIndex": 101
+        }
+      }
+    ],
+    "id": "23_000242",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yeah, please get me that vehicle/"
+    },
+    "context": {},
+    "id": "23_000244",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, I don't really want a a reservation right now."
+    },
+    "context": {},
+    "id": "23_000246",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, thank you."
+    },
+    "context": {},
+    "id": "23_000248",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I have an urgent trip in the evening. Can you find a rental car around 6 o\"clock in the evening."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 71,
+          "endIndex": 95
+        }
+      }
+    ],
+    "id": "23_000250",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Till next Friday I want it, from Paris."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 33,
+          "endIndex": 38
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 5,
+          "endIndex": 16
+        }
+      }
+    ],
+    "id": "23_000252",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "From 4th of this month."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 5,
+          "endIndex": 22
+        }
+      }
+    ],
+    "id": "23_000254",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I prefer a medium-sized one, look for that."
+    },
+    "context": {},
+    "id": "23_000256",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "What will be the cost?"
+    },
+    "context": {},
+    "id": "23_000258",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Look for one from the 7th."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 18,
+          "endIndex": 25
+        }
+      }
+    ],
+    "id": "23_0002510",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Great , that will do."
+    },
+    "context": {},
+    "id": "23_0002512",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yeah go on."
+    },
+    "context": {},
+    "id": "23_0002514",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes it is correct."
+    },
+    "context": {},
+    "id": "23_0002516",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "thank you for the help."
+    },
+    "context": {},
+    "id": "23_0002518",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Hi, I will be travelling and I need to book a rental car for the 6th of March."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 65,
+          "endIndex": 77
+        }
+      }
+    ],
+    "id": "23_000260",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'd like to pick it up around three pm and I will need it until March 9th."
+    },
+    "context": {
+      "requestedSlots": [
+        "dropoff_date",
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 30,
+          "endIndex": 38
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 64,
+          "endIndex": 73
+        }
+      }
+    ],
+    "id": "23_000262",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like to pick up the car from Philly."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 37,
+          "endIndex": 43
+        }
+      }
+    ],
+    "id": "23_000264",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That sounds great, I'd like to reserve the car."
+    },
+    "context": {},
+    "id": "23_000266",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes that works great for me. What will the price be?"
+    },
+    "context": {},
+    "id": "23_000268",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Thanks for everything, that's all I needed."
+    },
+    "context": {},
+    "id": "23_0002610",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I think I need to rent a car."
+    },
+    "context": {},
+    "id": "23_000270",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need to pick up the car around evening 6 on 11th of this month. I really need to get the car in Long Beach, CA and can return it on the 14th."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "pickup_date",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 46,
+          "endIndex": 64
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 33,
+          "endIndex": 42
+        }
+      },
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 98,
+          "endIndex": 112
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 134,
+          "endIndex": 142
+        }
+      }
+    ],
+    "id": "23_000272",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Let's do that."
+    },
+    "context": {},
+    "id": "23_000274",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "How much will all this cost me?"
+    },
+    "context": {},
+    "id": "23_000276",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "You're the best, thanks."
+    },
+    "context": {},
+    "id": "23_000278",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Nothing, thanks."
+    },
+    "context": {},
+    "id": "23_0002710",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Can you search for a rental car?"
+    },
+    "context": {},
+    "id": "23_000280",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I have to take it from next Tuesday, till 11th of this month"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_date",
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 23,
+          "endIndex": 35
+        }
+      },
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 42,
+          "endIndex": 60
+        }
+      }
+    ],
+    "id": "23_000282",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Around 12 pm, from NYC"
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 19,
+          "endIndex": 22
+        }
+      },
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 7,
+          "endIndex": 12
+        }
+      }
+    ],
+    "id": "23_000284",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Perfect! Book this car."
+    },
+    "context": {},
+    "id": "23_000286",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes, I do. What is the cost?"
+    },
+    "context": {},
+    "id": "23_000288",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Thank you very much"
+    },
+    "context": {},
+    "id": "23_0002810",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, It's all, thanks"
+    },
+    "context": {},
+    "id": "23_0002812",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like to find a rental car. I'll need to keep it until the 8th of this month."
+    },
+    "context": {},
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 66,
+          "endIndex": 83
+        }
+      }
+    ],
+    "id": "23_000290",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need it starting Tuesday next week."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 19,
+          "endIndex": 36
+        }
+      }
+    ],
+    "id": "23_000292",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like to pick it up around five pm."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 34,
+          "endIndex": 41
+        }
+      }
+    ],
+    "id": "23_000294",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like to get it from Fresno, CA."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 28,
+          "endIndex": 38
+        }
+      }
+    ],
+    "id": "23_000296",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Is there anything else? I would like a standard car."
+    },
+    "context": {},
+    "id": "23_000298",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "What's the cost of it?"
+    },
+    "context": {},
+    "id": "23_0002910",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That sounds great."
+    },
+    "context": {},
+    "id": "23_0002912",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "No, I don't need it now."
+    },
+    "context": {},
+    "id": "23_0002914",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Nope, that's for your help."
+    },
+    "context": {},
+    "id": "23_0002916",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Hello. Can you help me find a rental car?"
+    },
+    "context": {},
+    "id": "23_000300",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I need a car that will be available through March 5th."
+    },
+    "context": {
+      "requestedSlots": [
+        "dropoff_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "dropoff_date",
+        "valueSpan": {
+          "startIndex": 44,
+          "endIndex": 53
+        }
+      }
+    ],
+    "id": "23_000302",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would like to pick it up from Ciudad de Mexico on this Sunday."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_city",
+        "pickup_date"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_city",
+        "valueSpan": {
+          "startIndex": 32,
+          "endIndex": 48
+        }
+      },
+      {
+        "slot": "pickup_date",
+        "valueSpan": {
+          "startIndex": 52,
+          "endIndex": 63
+        }
+      }
+    ],
+    "id": "23_000304",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would prefer to pick it up around 1:30 in the afternoon."
+    },
+    "context": {
+      "requestedSlots": [
+        "pickup_time"
+      ]
+    },
+    "labels": [
+      {
+        "slot": "pickup_time",
+        "valueSpan": {
+          "startIndex": 36,
+          "endIndex": 57
+        }
+      }
+    ],
+    "id": "23_000306",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I'm not thrilled with that option. What else could I rent?"
+    },
+    "context": {},
+    "id": "23_000308",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "I would really prefer a medium-sized car. Are there any available?"
+    },
+    "context": {},
+    "id": "23_0003010",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "What's the total cost to reserve that car?"
+    },
+    "context": {},
+    "id": "23_0003012",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "That sounds good. Would you please reserve that car?"
+    },
+    "context": {},
+    "id": "23_0003014",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Yes, that's perfect."
+    },
+    "context": {},
+    "id": "23_0003016",
+    "splitKey": 1
+  },
+  {
+    "userInput": {
+      "text": "Thanks for your help!"
+    },
+    "context": {},
+    "id": "23_0003018",
+    "splitKey": 1
+  }
+]
