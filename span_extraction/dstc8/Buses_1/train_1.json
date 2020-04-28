@@ -1,0 +1,7336 @@
+[
+    {
+        "userInput": {
+            "text": "Can you help me out and look for a bus for me?"
+        },
+        "context": {},
+        "id": "27_001080",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to visit New York."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "27_001082",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving out from Washington on the 11th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 53
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "27_001084",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the bus station that I will leave from and which station will I arrrive at?"
+        },
+        "context": {},
+        "id": "27_001086",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds fine to me."
+        },
+        "context": {},
+        "id": "27_001088",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yep, I would like to get tickets."
+        },
+        "context": {},
+        "id": "27_0010810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need it for two people."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_0010812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's not right, it's for 4 people."
+        },
+        "context": {},
+        "id": "27_0010814",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yep, that sounds good to me."
+        },
+        "context": {},
+        "id": "27_0010816",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks so much for your help."
+        },
+        "context": {},
+        "id": "27_0010818",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Nope, thanks again for helping me."
+        },
+        "context": {},
+        "id": "27_0010820",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there a bus that leaves from Anaheim to SD?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 45
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001090",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thursday next week for four people."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "27_001092",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Anything else for three people from LAX?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001094",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds great. I would like to reserve it."
+        },
+        "context": {},
+        "id": "27_001096",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds great."
+        },
+        "context": {},
+        "id": "27_001098",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all for now."
+        },
+        "context": {},
+        "id": "27_0010910",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm thinking of going out of town. Could you please help me find a bus?"
+        },
+        "context": {},
+        "id": "27_001100",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to leave on 10th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "27_001102",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to travel from Washington to Philly."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 42
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "27_001104",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's my destination station?"
+        },
+        "context": {},
+        "id": "27_001106",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please find out whether there are other available buses, for a group of three."
+        },
+        "context": {},
+        "id": "27_001108",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please let me know my departure and destination stations."
+        },
+        "context": {},
+        "id": "27_0011010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Okay, that sounds perfect. Please make a reservation on the bus."
+        },
+        "context": {},
+        "id": "27_0011012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, sounds good."
+        },
+        "context": {},
+        "id": "27_0011014",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm really grateful for your help. That will be all."
+        },
+        "context": {},
+        "id": "27_0011016",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a bus?"
+        },
+        "context": {},
+        "id": "27_001110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go from San Francisco to Los Angeles on the 9th"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 31
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 50,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "27_001112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station am I going from?"
+        },
+        "context": {},
+        "id": "27_001114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's good thanks."
+        },
+        "context": {},
+        "id": "27_001116",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes please reserve them."
+        },
+        "context": {},
+        "id": "27_001118",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need 2 please."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_0011110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No I need 3 seats."
+        },
+        "context": {},
+        "id": "27_0011112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that's good, which bus station does it go to?"
+        },
+        "context": {},
+        "id": "27_0011114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot"
+        },
+        "context": {},
+        "id": "27_0011116",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No that's it thanks"
+        },
+        "context": {},
+        "id": "27_0011118",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find a bus, please?"
+        },
+        "context": {},
+        "id": "27_001120",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Fresno. I have two people in my party and I want to leave on the 12th of March, from Anaheim."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 22
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 81,
+                    "endIndex": 94
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 101,
+                    "endIndex": 108
+                }
+            }
+        ],
+        "id": "27_001122",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other bus options? I want to go to Vegas on March 11th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 49,
+                    "endIndex": 54
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 58,
+                    "endIndex": 68
+                }
+            }
+        ],
+        "id": "27_001124",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other bus options? I have 3 people in my party."
+        },
+        "context": {},
+        "id": "27_001126",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "At which bus station will it be arriving at? From which bus station am I leaving?"
+        },
+        "context": {},
+        "id": "27_001128",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "OK, that sounds good then."
+        },
+        "context": {},
+        "id": "27_0011210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, I don't want those tickets. Thank you."
+        },
+        "context": {},
+        "id": "27_0011212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need a bus to Fresno."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 22
+                }
+            }
+        ],
+        "id": "27_001130",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Departing from Anaheim, CA on the 2nd of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 51
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 15,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "27_001132",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Where is the departure station and where is the arrival station?"
+        },
+        "context": {},
+        "id": "27_001134",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other options?"
+        },
+        "context": {},
+        "id": "27_001136",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other options available? I need 4 seats."
+        },
+        "context": {},
+        "id": "27_001138",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Book that one for me."
+        },
+        "context": {},
+        "id": "27_0011310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes. That is correct."
+        },
+        "context": {},
+        "id": "27_0011312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great! Thanks."
+        },
+        "context": {},
+        "id": "27_0011314",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Not just now. That willbe all, thanks."
+        },
+        "context": {},
+        "id": "27_0011316",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Would you help me searh for a bus?"
+        },
+        "context": {},
+        "id": "27_001140",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to go to Vegas."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "27_001142",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I will leave from Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "27_001144",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave March 8th."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "27_001146",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there other buses? I need 3 tickets."
+        },
+        "context": {},
+        "id": "27_001148",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Do you have anything else? Actually, it's for 1 person. I will depart from Sacramento."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 75,
+                    "endIndex": 85
+                }
+            }
+        ],
+        "id": "27_0011410",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station will I arrive at?"
+        },
+        "context": {},
+        "id": "27_0011412",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good. Please reserve it for me."
+        },
+        "context": {},
+        "id": "27_0011414",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that should work. What bus station do I leave from?"
+        },
+        "context": {},
+        "id": "27_0011416",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you for helping."
+        },
+        "context": {},
+        "id": "27_0011418",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that is all. I appreciate the help."
+        },
+        "context": {},
+        "id": "27_0011420",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find a bus for my trip"
+        },
+        "context": {},
+        "id": "27_001150",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Sacramento on March 6th heading to Long Beach"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 63
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "27_001152",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the bus station I'd be leaving from? And what's the destination station?"
+        },
+        "context": {},
+        "id": "27_001154",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Any other buses if I leave from SD?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "27_001156",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds like something I'd like"
+        },
+        "context": {},
+        "id": "27_001158",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, for three people"
+        },
+        "context": {},
+        "id": "27_0011510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes. What are the origin and destination stations?"
+        },
+        "context": {},
+        "id": "27_0011512",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great, that's all the help I need"
+        },
+        "context": {},
+        "id": "27_0011514",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm getting a bus from Fresno, CA - can you help?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "27_001160",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to Sacramento, CA on the 5th of March"
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 27
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "27_001162",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any others? I'll need 2 tickets"
+        },
+        "context": {},
+        "id": "27_001164",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That one sounds great"
+        },
+        "context": {},
+        "id": "27_001166",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes please"
+        },
+        "context": {},
+        "id": "27_001168",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that would be great"
+        },
+        "context": {},
+        "id": "27_0011610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you very much!"
+        },
+        "context": {},
+        "id": "27_0011612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No that's all, thank you"
+        },
+        "context": {},
+        "id": "27_0011614",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hey, can you help me find a bus? I want to go to LAX."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 49,
+                    "endIndex": 52
+                }
+            }
+        ],
+        "id": "27_001170",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "On the 11th, please. I am leaving from San Fran."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 11
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 39,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "27_001172",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, it sounds good."
+        },
+        "context": {},
+        "id": "27_001174",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, buy a ticket for one, please."
+        },
+        "context": {},
+        "id": "27_001176",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's exactly it. In which bus station will it be leaving from? And in which will it arrive?"
+        },
+        "context": {},
+        "id": "27_001178",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks very much, that's all I need."
+        },
+        "context": {},
+        "id": "27_0011710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need a bus for 2 people."
+        },
+        "context": {},
+        "id": "27_001180",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Leaving from Sacramento on the 11th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 23
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "27_001182",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Going to SF."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 9,
+                    "endIndex": 11
+                }
+            }
+        ],
+        "id": "27_001184",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me."
+        },
+        "context": {},
+        "id": "27_001186",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, reserve some."
+        },
+        "context": {},
+        "id": "27_001188",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Works for me."
+        },
+        "context": {},
+        "id": "27_0011810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for the help."
+        },
+        "context": {},
+        "id": "27_0011812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "27_0011814",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need assistance finding a bus."
+        },
+        "context": {},
+        "id": "27_001190",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would be leaving from SD on the 3rd of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 51
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "27_001192",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving Sacramento, CA. and heading to Anaheim, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 44,
+                    "endIndex": 55
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "27_001194",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else available?"
+        },
+        "context": {},
+        "id": "27_001196",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else available for four individuals?"
+        },
+        "context": {},
+        "id": "27_001198",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That would be great. I would like to use that bus."
+        },
+        "context": {},
+        "id": "27_0011910",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That would be great. From which station would the bus be leaving and where would it be arriving?"
+        },
+        "context": {},
+        "id": "27_0011912",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for your assistance."
+        },
+        "context": {},
+        "id": "27_0011914",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. You have been very helpful."
+        },
+        "context": {},
+        "id": "27_0011916",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find a bus."
+        },
+        "context": {},
+        "id": "27_001200",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Los Angeles from Anaheim, CA on March 13th."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 27
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 48,
+                    "endIndex": 58
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "27_001202",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus stations would I leave and arrive at?"
+        },
+        "context": {},
+        "id": "27_001204",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What are some other choices?"
+        },
+        "context": {},
+        "id": "27_001206",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What are some others and it will be for 1 person.?"
+        },
+        "context": {},
+        "id": "27_001208",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I like that one I want you to reserve me a seat."
+        },
+        "context": {},
+        "id": "27_0012010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that would be wonderful."
+        },
+        "context": {},
+        "id": "27_0012012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for your help that will be all for now."
+        },
+        "context": {},
+        "id": "27_0012014",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need help with a travel bus?"
+        },
+        "context": {},
+        "id": "27_001210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I leave from WAshington on 8th of March and want to go to NY."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 58,
+                    "endIndex": 60
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 23
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to reserve this."
+        },
+        "context": {},
+        "id": "27_001214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Just one ticket for me."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_001216",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need 4 tickets now."
+        },
+        "context": {},
+        "id": "27_001218",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is fine. What is my departure station and my arrival station?"
+        },
+        "context": {},
+        "id": "27_0012110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you that is all today."
+        },
+        "context": {},
+        "id": "27_0012112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to search for a bus for four people on the 1st."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 53
+                }
+            }
+        ],
+        "id": "27_001220",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning my trip to Long Beach, CA. I like it very much."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001222",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am in Sacramento, from here I need the bus."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 8,
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "27_001224",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please search for buses to LA."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "27_001226",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "From which station am I leaving?"
+        },
+        "context": {},
+        "id": "27_001228",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the station name where the bus will reach?"
+        },
+        "context": {},
+        "id": "27_0012210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please make a reservation for me to this bus."
+        },
+        "context": {},
+        "id": "27_0012212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is correct."
+        },
+        "context": {},
+        "id": "27_0012214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for you help."
+        },
+        "context": {},
+        "id": "27_0012216",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me search for a bus?"
+        },
+        "context": {},
+        "id": "27_001230",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Anaheim."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "27_001232",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I wanna go to Anaheim. I am planning to leave on March 5th. I am leaving from Sacramento, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 14,
+                    "endIndex": 21
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 49,
+                    "endIndex": 58
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 78,
+                    "endIndex": 92
+                }
+            }
+        ],
+        "id": "27_001234",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the bus station it's leaving from?"
+        },
+        "context": {},
+        "id": "27_001236",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me. I want to make a reservation"
+        },
+        "context": {},
+        "id": "27_001238",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need four tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_0012310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me. Which bus station are we reaching?"
+        },
+        "context": {},
+        "id": "27_0012312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot. That's everything, for now."
+        },
+        "context": {},
+        "id": "27_0012314",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a bus"
+        },
+        "context": {},
+        "id": "27_001240",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving on 2nd of this month"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "27_001242",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I leaving from Fresno, CA going to LAX"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 38
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 15,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "27_001244",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "thats great, please book this for me"
+        },
+        "context": {},
+        "id": "27_001246",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i need three tickets"
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_001248",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "thats correct. What bus station will i be drop off"
+        },
+        "context": {},
+        "id": "27_0012410",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "thanks a lot"
+        },
+        "context": {},
+        "id": "27_0012412",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "no thats it"
+        },
+        "context": {},
+        "id": "27_0012414",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to San Fran - can you help me search for a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "27_001250",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from Vegas, Saturday this week."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 42
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 22
+                }
+            }
+        ],
+        "id": "27_001252",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station am I leaving from and where do I arrive?"
+        },
+        "context": {},
+        "id": "27_001254",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good, I'd like to get 4 tickets."
+        },
+        "context": {},
+        "id": "27_001256",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, two tickets."
+        },
+        "context": {},
+        "id": "27_001258",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's right."
+        },
+        "context": {},
+        "id": "27_0012510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for your help."
+        },
+        "context": {},
+        "id": "27_0012512",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "27_0012514",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "please help me search for buses."
+        },
+        "context": {},
+        "id": "27_001260",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to go to Fresno."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "27_001262",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to leave on the 12th from Anaheim."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 39,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "27_001264",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station would I be leaving from?"
+        },
+        "context": {},
+        "id": "27_001266",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Do I have any other bus options?"
+        },
+        "context": {},
+        "id": "27_001268",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "ok, but list another option please."
+        },
+        "context": {},
+        "id": "27_0012610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "ok, what bus station would I be leaving from?"
+        },
+        "context": {},
+        "id": "27_0012612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds pretty good to me."
+        },
+        "context": {},
+        "id": "27_0012614",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes go ahead."
+        },
+        "context": {},
+        "id": "27_0012616",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "please purchase 3 tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "27_0012618",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great. Find out what bus station i will arrive at."
+        },
+        "context": {},
+        "id": "27_0012620",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for all your help. I appreciate it."
+        },
+        "context": {},
+        "id": "27_0012622",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need a bus for 2 people."
+        },
+        "context": {},
+        "id": "27_001270",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am departing from Las Vegas."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "27_001272",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave for San Francisco on Monday next week."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 33
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 37,
+                    "endIndex": 53
+                }
+            }
+        ],
+        "id": "27_001274",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What other buses are there?"
+        },
+        "context": {},
+        "id": "27_001276",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What else do you have?"
+        },
+        "context": {},
+        "id": "27_001278",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station does it depart from?"
+        },
+        "context": {},
+        "id": "27_0012710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That works for me."
+        },
+        "context": {},
+        "id": "27_0012712",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, not right now. That is all."
+        },
+        "context": {},
+        "id": "27_0012714",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for a bus. I'm leaving from Long Beach."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "26_000000",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I intend on traveling to SD, starting on the 6th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 27
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "26_000002",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus stations will I be leaving from and arriving at, respectively?"
+        },
+        "context": {},
+        "id": "26_000004",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me."
+        },
+        "context": {},
+        "id": "26_000006",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I don't want to buy tickets right now. I don't need anything else."
+        },
+        "context": {},
+        "id": "26_000008",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to book a bus ticket, can you find me a seat?"
+        },
+        "context": {},
+        "id": "26_000010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to get four tickets from San Fran to Sacramento, CA on the 12th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 60
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 68,
+                    "endIndex": 81
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "26_000012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's great, I'm done now."
+        },
+        "context": {},
+        "id": "26_000014",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Would you help me find a bus?"
+        },
+        "context": {},
+        "id": "26_000020",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "endIndex": 10
+                }
+            }
+        ],
+        "id": "26_000022",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to SF on the 10th."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 18
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "26_000024",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good."
+        },
+        "context": {},
+        "id": "26_000026",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that is all I want."
+        },
+        "context": {},
+        "id": "26_000028",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find a bus to Sf for the 13th of this month?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 30,
+                    "endIndex": 32
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 41,
+                    "endIndex": 59
+                }
+            }
+        ],
+        "id": "26_000030",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from SD."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 19
+                }
+            }
+        ],
+        "id": "26_000032",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station is it leaving from and which station am I reaching?"
+        },
+        "context": {},
+        "id": "26_000034",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available?"
+        },
+        "context": {},
+        "id": "26_000036",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "26_000038",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, not right now."
+        },
+        "context": {},
+        "id": "26_0000310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thanks a lot for your help."
+        },
+        "context": {},
+        "id": "26_0000312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a bus to Philadelphia?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 37
+                }
+            }
+        ],
+        "id": "26_000040",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "From New York City."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 5,
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "26_000042",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "On the 9th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 7,
+                    "endIndex": 19
+                }
+            }
+        ],
+        "id": "26_000044",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What are the destination and origin stations?"
+        },
+        "context": {},
+        "id": "26_000046",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good. That's all I need."
+        },
+        "context": {},
+        "id": "26_000048",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you please help me in searching for a bus?"
+        },
+        "context": {},
+        "id": "26_000050",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to go to LAX. I am having plans to leave on March 6th. We are 4 people and we would like to depart from Anaheim."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 25
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 57,
+                    "endIndex": 66
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 117,
+                    "endIndex": 124
+                }
+            }
+        ],
+        "id": "26_000052",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great. That's all I need at this point in time"
+        },
+        "context": {},
+        "id": "26_000054",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me search for a bus? I'll need 4 seats, leaving from Anaheim, CA."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 66,
+                    "endIndex": 77
+                }
+            }
+        ],
+        "id": "26_000060",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning to leave this Sunday, going to Vegas."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 50
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "26_000062",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other bus options?"
+        },
+        "context": {},
+        "id": "26_000064",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station will I arrive at?"
+        },
+        "context": {},
+        "id": "26_000066",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station will I be leaving from?"
+        },
+        "context": {},
+        "id": "26_000068",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good, that will be all."
+        },
+        "context": {},
+        "id": "26_0000610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Me and my friends are planning to take a bus. We're four in total. Can you find a bus for us?"
+        },
+        "context": {},
+        "id": "26_000070",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "We are going to San Diego. We're leaving from Anaheim, CA on March 3rd."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 25
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 61,
+                    "endIndex": 70
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "26_000072",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That looks good."
+        },
+        "context": {},
+        "id": "26_000074",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Not now, thanks. I needed only the informations about the bus."
+        },
+        "context": {},
+        "id": "26_000076",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find bus leaving next Wednesday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "26_000080",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go from Sacramento to SD."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 34
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "26_000082",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What are the other available buses?"
+        },
+        "context": {},
+        "id": "26_000084",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Tell me about some more buses."
+        },
+        "context": {},
+        "id": "26_000086",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station would i need to go to and what bus station would I arrive at?"
+        },
+        "context": {},
+        "id": "26_000088",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's the one I want."
+        },
+        "context": {},
+        "id": "26_0000810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No not right now, that's all."
+        },
+        "context": {},
+        "id": "26_0000812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find a bus?"
+        },
+        "context": {},
+        "id": "26_000090",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want it for the 10th of March for three people."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "26_000092",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from Long Beach, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "26_000094",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to go to LAX."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 19
+                }
+            }
+        ],
+        "id": "26_000096",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good to me."
+        },
+        "context": {},
+        "id": "26_000098",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hi, i need a help, Could you search me for a bus, I need to go to Long Beach, CA"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 66,
+                    "endIndex": 80
+                }
+            }
+        ],
+        "id": "26_000100",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Sacramento on 14th of march, it is for 1 people"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 45
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "26_000102",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, Can you tell me are there any other buses available?"
+        },
+        "context": {},
+        "id": "26_000104",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Could you tell me the details? Which bus station am i reaching and what is the bus station i am leaving from?"
+        },
+        "context": {},
+        "id": "26_000106",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That Seems good for me, That's all i need,Thank you very much"
+        },
+        "context": {},
+        "id": "26_000108",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to travel on March 9th from SFO, can you help me find a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 29
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 38
+                }
+            }
+        ],
+        "id": "26_000110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to Sacramento."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 23
+                }
+            }
+        ],
+        "id": "26_000112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What other options are there? What about trips to Long Beach, CA?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 50,
+                    "endIndex": 64
+                }
+            }
+        ],
+        "id": "26_000114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Where does it depart from?"
+        },
+        "context": {},
+        "id": "26_000116",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good. That's all I need for now, thanks."
+        },
+        "context": {},
+        "id": "26_000118",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I plan to leave on the 8th and I need help searching for a bus."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "26_000120",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Long Beach, CA is where I am leaving from."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "endIndex": 14
+                }
+            }
+        ],
+        "id": "26_000122",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "It's for 2 people to go to San Francisco."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "26_000124",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good. That's all I need."
+        },
+        "context": {},
+        "id": "26_000126",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to San Fran. Will you be able to look for a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "26_000130",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am thinking of leaving on 12th of March"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 28,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "26_000132",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Long Beach, CA and it is for four people"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "26_000134",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which is the bus station i am leaving from? and which is the bus station i am reaching?"
+        },
+        "context": {},
+        "id": "26_000136",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds great"
+        },
+        "context": {},
+        "id": "26_000138",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, this is all i need and i don't want to buy tickets now"
+        },
+        "context": {},
+        "id": "26_0001310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to book a bus, can you find one?"
+        },
+        "context": {},
+        "id": "26_000140",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I may leave on the 12th from SFO."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 15,
+                    "endIndex": 23
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "26_000142",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I like to visit LA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "26_000144",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, I need to book for three people, can you find anyother bus?"
+        },
+        "context": {},
+        "id": "26_000146",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Anything else you can find?"
+        },
+        "context": {},
+        "id": "26_000148",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Let me know the name of Bus station where I am leaving from?"
+        },
+        "context": {},
+        "id": "26_0001410",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that is okay for me"
+        },
+        "context": {},
+        "id": "26_0001412",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, not now, thanks"
+        },
+        "context": {},
+        "id": "26_0001414",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "can you help me search for a bus?"
+        },
+        "context": {},
+        "id": "26_000150",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i want to go to washington i am planning to leave on 10th of march. i am leaving from philadelphia"
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 26
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 66
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 86,
+                    "endIndex": 98
+                }
+            }
+        ],
+        "id": "26_000152",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "that sounds good that's all i need"
+        },
+        "context": {},
+        "id": "26_000154",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you please help me find a bus?"
+        },
+        "context": {},
+        "id": "26_000160",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to SD on the 5th of this month and I am leaving from LA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 18
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 43
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 66,
+                    "endIndex": 68
+                }
+            }
+        ],
+        "id": "26_000162",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What station is the bus leaving from? In which bus station?"
+        },
+        "context": {},
+        "id": "26_000164",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there any other buses available for 3 people?"
+        },
+        "context": {},
+        "id": "26_000166",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am in Las Vegas are they any other buses available to go to Long Beach."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 62,
+                    "endIndex": 72
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 8,
+                    "endIndex": 17
+                }
+            }
+        ],
+        "id": "26_000168",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That is good."
+        },
+        "context": {},
+        "id": "26_0001610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No thank you for the information."
+        },
+        "context": {},
+        "id": "26_0001612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you assist me search for a bus?"
+        },
+        "context": {},
+        "id": "26_000170",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Sacramento, CA and I am planning to leave from SFO on Tuesday next week."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 30
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 70,
+                    "endIndex": 87
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 63,
+                    "endIndex": 66
+                }
+            }
+        ],
+        "id": "26_000172",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's awesome. That will be all. Thank you."
+        },
+        "context": {},
+        "id": "26_000174",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go on a trip. Can you help find a bus? I want to leave on the 14th of this month."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 72,
+                    "endIndex": 90
+                }
+            }
+        ],
+        "id": "26_000180",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Long Beach. I am leaving from Sacramento."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 26
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 56
+                }
+            }
+        ],
+        "id": "26_000182",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That will do."
+        },
+        "context": {},
+        "id": "26_000184",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thanks a lot."
+        },
+        "context": {},
+        "id": "26_000186",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "can you help me find a bus"
+        },
+        "context": {},
+        "id": "26_000190",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i want to go to sacramento. i am planning on leaving on the 13th of this month"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 26
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 60,
+                    "endIndex": 78
+                }
+            }
+        ],
+        "id": "26_000192",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i am leaving from San Diego"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "26_000194",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "are there any other buses available i am plan on leaving on march 7th it is for one person"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 60,
+                    "endIndex": 69
+                }
+            }
+        ],
+        "id": "26_000196",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "are there any other buses available"
+        },
+        "context": {},
+        "id": "26_000198",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "whats the bus station i am leaving from"
+        },
+        "context": {},
+        "id": "26_0001910",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "that sound good"
+        },
+        "context": {},
+        "id": "26_0001912",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "no i am good for right now that is all i need"
+        },
+        "context": {},
+        "id": "26_0001914",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Could you help me look for a bus? I would like to visit LA."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 56,
+                    "endIndex": 58
+                }
+            }
+        ],
+        "id": "26_000200",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am exiting from San Francisco."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "26_000202",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am anticipating on leaving later today."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "26_000204",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds wonderful. That's all."
+        },
+        "context": {},
+        "id": "26_000206",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to find a bus leaving on the 6th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "26_000210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from LAX."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 20
+                }
+            }
+        ],
+        "id": "26_000212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Anaheim."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 23
+                }
+            }
+        ],
+        "id": "26_000214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the station I'm leaving from and arriving at?"
+        },
+        "context": {},
+        "id": "26_000216",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses availble for one person?"
+        },
+        "context": {},
+        "id": "26_000218",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That good."
+        },
+        "context": {},
+        "id": "26_0002110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "no, I don't want to buy now."
+        },
+        "context": {},
+        "id": "26_0002112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "26_0002114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find a bus?"
+        },
+        "context": {},
+        "id": "26_000220",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am going to Las Vegas. I will leave from Anaheim, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 23
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 54
+                }
+            }
+        ],
+        "id": "26_000222",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "My plans are to leave on the 13th day of the month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "26_000224",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the bus station?"
+        },
+        "context": {},
+        "id": "26_000226",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sound really good, like, really good."
+        },
+        "context": {},
+        "id": "26_000228",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. Thanks a lot for everything mate."
+        },
+        "context": {},
+        "id": "26_0002210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hey, can you help me find a bus for a trip I'm going? I want to leave on March 13th."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 73,
+                    "endIndex": 83
+                }
+            }
+        ],
+        "id": "26_000230",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from SFO on the 12th. The destiny is Long Beach, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 50,
+                    "endIndex": 64
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 33
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 21
+                }
+            }
+        ],
+        "id": "26_000232",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "In which bus station will I arrive? What's the bus station I'm leaving from?"
+        },
+        "context": {},
+        "id": "26_000234",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's great for me. That's all I need."
+        },
+        "context": {},
+        "id": "26_000236",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need help getting from Long Beach can you help me find a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 35
+                }
+            }
+        ],
+        "id": "26_000240",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go leave on the 14th of this month and go to SD. I need transportation for 1 person."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 55,
+                    "endIndex": 57
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "26_000242",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good, that's all I need."
+        },
+        "context": {},
+        "id": "26_000244",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning of leaving on the 14th of this month. There are 2 of us. Can you help me find a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "26_000250",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sacramento is where i'm leaving from."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "endIndex": 10
+                }
+            }
+        ],
+        "id": "26_000252",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "SD is where I want to go."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "endIndex": 2
+                }
+            }
+        ],
+        "id": "26_000254",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Do you know which is the bus station I am trying to reach and where is it leaving from?"
+        },
+        "context": {},
+        "id": "26_000256",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds nice."
+        },
+        "context": {},
+        "id": "26_000258",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That all I need and I don't need to buy tickets now."
+        },
+        "context": {},
+        "id": "26_0002510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hi, can you help me find a bus?"
+        },
+        "context": {},
+        "id": "26_000260",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to go to LAX airport on the 14th. I will be departing from Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 21
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 41
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 68,
+                    "endIndex": 78
+                }
+            }
+        ],
+        "id": "26_000262",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's perfect and everything I need."
+        },
+        "context": {},
+        "id": "26_000264",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i need a bus. can you help me find one?"
+        },
+        "context": {},
+        "id": "26_000270",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i am going from san diego to LAX."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 29,
+                    "endIndex": 32
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "26_000272",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i want to leave on the 3rd of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "26_000274",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "is that the only bus available?"
+        },
+        "context": {},
+        "id": "26_000276",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "that one sounds good! that is all i needed."
+        },
+        "context": {},
+        "id": "26_000278",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm planning on going on a short trip with friends. Can you find me a bus?"
+        },
+        "context": {},
+        "id": "26_000280",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to SFO and I have 3 people in my group."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 16
+                }
+            }
+        ],
+        "id": "26_000282",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll be leaving on the 8th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 35
+                }
+            }
+        ],
+        "id": "26_000284",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from LA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 19
+                }
+            }
+        ],
+        "id": "26_000286",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station does it go to?"
+        },
+        "context": {},
+        "id": "26_000288",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station does it leave from?"
+        },
+        "context": {},
+        "id": "26_0002810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great, that sounds perfect."
+        },
+        "context": {},
+        "id": "26_0002812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No thanks."
+        },
+        "context": {},
+        "id": "26_0002814",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that's all I needed. Thanks!"
+        },
+        "context": {},
+        "id": "26_0002816",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to take a bus to Washington later today. Can you help me find a bus?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 34
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "26_000290",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "There are going to be 4 of us. We are leaving from New York City."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 51,
+                    "endIndex": 64
+                }
+            }
+        ],
+        "id": "26_000292",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Whats the bus station called that I'm leaving from?"
+        },
+        "context": {},
+        "id": "26_000294",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good! That's all!"
+        },
+        "context": {},
+        "id": "26_000296",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need help to find a bus."
+        },
+        "context": {},
+        "id": "26_000300",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll be boarding at Long Beach."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "26_000302",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to go to San Fran today."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "26_000304",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good. That's all I need for now."
+        },
+        "context": {},
+        "id": "26_000306",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "can you get me a bus"
+        },
+        "context": {},
+        "id": "26_000310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "iam going to san Francisco from long beach, CA"
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 26
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 46
+                }
+            }
+        ],
+        "id": "26_000312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "iam planning to go on march 2nd for 1 person"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "26_000314",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "that's ok"
+        },
+        "context": {},
+        "id": "26_000316",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "no thanks"
+        },
+        "context": {},
+        "id": "26_000318",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a bus can you help me? I plan to leave next Thursday."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 56,
+                    "endIndex": 69
+                }
+            }
+        ],
+        "id": "26_000320",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I will be leaving from Sacramento."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "26_000322",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to San Fran and plan on leaving on the 13th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 52,
+                    "endIndex": 70
+                }
+            }
+        ],
+        "id": "26_000324",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Do you have any other buses available?"
+        },
+        "context": {},
+        "id": "26_000326",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Do you have any other buses?"
+        },
+        "context": {},
+        "id": "26_000328",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll take that one. Thank you."
+        },
+        "context": {},
+        "id": "26_0003210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning on leaving to see family in Sacramento on March 14th. Will assist me in finding a bus to ride?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 42,
+                    "endIndex": 52
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 56,
+                    "endIndex": 66
+                }
+            }
+        ],
+        "id": "25_001190",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving from my hometown of Long Beach."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "25_001192",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What other bus times are available?"
+        },
+        "context": {},
+        "id": "25_001194",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That would work."
+        },
+        "context": {},
+        "id": "25_001196",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm not looking to purchase tickets now but just wanted to inquire. I am done now."
+        },
+        "context": {},
+        "id": "25_001198",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find a bus for me? I want to go to Long Beach, CA."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "25_001200",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from SD."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 20
+                }
+            }
+        ],
+        "id": "25_001202",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning to leave on Tuesday next week."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "25_001204",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the departing and destination bus stations?"
+        },
+        "context": {},
+        "id": "25_001206",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "25_001208",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. I don't want to buy tickets right now."
+        },
+        "context": {},
+        "id": "25_0012010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. Thanks a lot for your help."
+        },
+        "context": {},
+        "id": "25_0012012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go on a trip on 2nd of this month, please help me to find a bus."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "25_001210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am from LAX."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 10,
+                    "endIndex": 13
+                }
+            }
+        ],
+        "id": "25_001212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I like to visit SD."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "25_001214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "get me another available bus detail."
+        },
+        "context": {},
+        "id": "25_001216",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That is convenient to me. Thanks, that's all"
+        },
+        "context": {},
+        "id": "25_001218",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a bus to LAX?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "25_001220",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "The 1st of March from San Francisco."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 4,
+                    "endIndex": 16
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 35
+                }
+            }
+        ],
+        "id": "25_001222",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which stations does the bus depart from and arrive to?"
+        },
+        "context": {},
+        "id": "25_001224",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any others available for 4 people?"
+        },
+        "context": {},
+        "id": "25_001226",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Any others?"
+        },
+        "context": {},
+        "id": "25_001228",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That is perfect."
+        },
+        "context": {},
+        "id": "25_0012210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Nope, that is all I need."
+        },
+        "context": {},
+        "id": "25_0012212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Could you help me search for a bus which is departing on Monday next week?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 57,
+                    "endIndex": 73
+                }
+            }
+        ],
+        "id": "25_001230",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to visit Long Beach, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 36
+                }
+            }
+        ],
+        "id": "25_001232",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I will be leaving from San Francisco."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 36
+                }
+            }
+        ],
+        "id": "25_001234",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds great, and that's all the help I need."
+        },
+        "context": {},
+        "id": "25_001236",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to book a bus ticket. Can you help me find a Bus service"
+        },
+        "context": {},
+        "id": "25_001240",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i want to book bus from Las Vegas"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 24,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "25_001242",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning to leave Next monday."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "25_001244",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "i will be going to Anaheim, CA. please book for 1 person."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "25_001246",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for this information. IS there any other bus available. I want to book for 2 persons. and i want bus in San Diego"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 111,
+                    "endIndex": 120
+                }
+            }
+        ],
+        "id": "25_001248",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thats really good."
+        },
+        "context": {},
+        "id": "25_0012410",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No . i don't want to buy tickets right now"
+        },
+        "context": {},
+        "id": "25_0012412",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "NO. Thanks so much for your help"
+        },
+        "context": {},
+        "id": "25_0012414",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find a bus."
+        },
+        "context": {},
+        "id": "25_001250",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to LA from Las Vegas. I need two tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 15
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "25_001252",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "On March 3rd."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 3,
+                    "endIndex": 12
+                }
+            }
+        ],
+        "id": "25_001254",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's it."
+        },
+        "context": {},
+        "id": "25_001256",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please find me a bus."
+        },
+        "context": {},
+        "id": "25_001260",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm leaving Long Beach on March 11th. I'm heading to Sacramento."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 12,
+                    "endIndex": 22
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 36
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 63
+                }
+            }
+        ],
+        "id": "25_001262",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "From what station will I depart?"
+        },
+        "context": {},
+        "id": "25_001264",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "At what station will I arrive?"
+        },
+        "context": {},
+        "id": "25_001266",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please show me other options. I want 2 tickets."
+        },
+        "context": {},
+        "id": "25_001268",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please show me another route. I want to travel from Las Vegas to Fresno."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 65,
+                    "endIndex": 71
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 52,
+                    "endIndex": 61
+                }
+            }
+        ],
+        "id": "25_0012610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to book that trip."
+        },
+        "context": {},
+        "id": "25_0012612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "25_0012614",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you please help me search for a bus?"
+        },
+        "context": {},
+        "id": "25_001270",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Long Beach on the 6th of March. I am going to Sacramento, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 64,
+                    "endIndex": 78
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 48
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "25_001272",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station am I going to?"
+        },
+        "context": {},
+        "id": "25_001274",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available? I need one for 3 people."
+        },
+        "context": {},
+        "id": "25_001276",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available that are going to Los Angeles?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 54,
+                    "endIndex": 65
+                }
+            }
+        ],
+        "id": "25_001278",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station am I leaving from and which station am I arriving at?"
+        },
+        "context": {},
+        "id": "25_0012710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good, that is all I need."
+        },
+        "context": {},
+        "id": "25_0012712",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need your help looking for a bus that goes to SD."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 48,
+                    "endIndex": 50
+                }
+            }
+        ],
+        "id": "28_000000",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to depart from Anaheim and it'll be later today."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 32
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 46,
+                    "endIndex": 57
+                }
+            }
+        ],
+        "id": "28_000002",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What else is there?"
+        },
+        "context": {},
+        "id": "28_000004",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else?"
+        },
+        "context": {},
+        "id": "28_000006",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you tell me what the departure station is and what the arrival station is?"
+        },
+        "context": {},
+        "id": "28_000008",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Okay, I like that. I want to book 2 people for the bus."
+        },
+        "context": {},
+        "id": "28_0000010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yeah, that's what I want."
+        },
+        "context": {},
+        "id": "28_0000012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Okay, thanks a lot. That's all the help I need."
+        },
+        "context": {},
+        "id": "28_0000014",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a bus that can take me from SF to Sacramento, CA. Can you help me?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 51,
+                    "endIndex": 65
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "28_000010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am planning to leave on March 3rd."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 26,
+                    "endIndex": 35
+                }
+            }
+        ],
+        "id": "28_000012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available? It is for 1 person."
+        },
+        "context": {},
+        "id": "28_000014",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available?"
+        },
+        "context": {},
+        "id": "28_000016",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station am I heading to?"
+        },
+        "context": {},
+        "id": "28_000018",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the bus station I am leaving from?"
+        },
+        "context": {},
+        "id": "28_0000110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good to me."
+        },
+        "context": {},
+        "id": "28_0000112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes I would like to reserve tickets."
+        },
+        "context": {},
+        "id": "28_0000114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that works great for me."
+        },
+        "context": {},
+        "id": "28_0000116",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you so much for the help."
+        },
+        "context": {},
+        "id": "28_0000118",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that will be all. Thank you again for your assistance."
+        },
+        "context": {},
+        "id": "28_0000120",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need a bus for one please."
+        },
+        "context": {},
+        "id": "28_000020",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave on the 13th of this month from San Diego to Sacramento, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 47,
+                    "endIndex": 56
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 41
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 60,
+                    "endIndex": 74
+                }
+            }
+        ],
+        "id": "28_000022",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station will I be arriving to?"
+        },
+        "context": {},
+        "id": "28_000024",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "28_000026",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to make a reservation for the bus."
+        },
+        "context": {},
+        "id": "28_000028",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that works for me."
+        },
+        "context": {},
+        "id": "28_0000210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Than you!"
+        },
+        "context": {},
+        "id": "28_0000212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Nope, that will be all."
+        },
+        "context": {},
+        "id": "28_0000214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm looking for a bus from Sacramento, CA to San Diego"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 54
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 27,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "28_000030",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave on next Wednesday"
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "28_000032",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there other buses available for 3 people?"
+        },
+        "context": {},
+        "id": "28_000034",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the departure station? What is the arrival station?"
+        },
+        "context": {},
+        "id": "28_000036",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Oh, It's perfect! I want to book"
+        },
+        "context": {},
+        "id": "28_000038",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, I confirm, thanks"
+        },
+        "context": {},
+        "id": "28_0000310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Than you so much! It's all"
+        },
+        "context": {},
+        "id": "28_0000312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hello! Can you help me find a bus leaving Fresno, CA?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 42,
+                    "endIndex": 52
+                }
+            }
+        ],
+        "id": "28_000040",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm going to SFO on March 14th."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 16
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 30
+                }
+            }
+        ],
+        "id": "28_000042",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's perfect. I'd like to reserve one ticket, please."
+        },
+        "context": {},
+        "id": "28_000044",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's perfect."
+        },
+        "context": {},
+        "id": "28_000046",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great. Thank you for your assistance. That's everything."
+        },
+        "context": {},
+        "id": "28_000048",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to get a bus to travel."
+        },
+        "context": {},
+        "id": "28_000050",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am going to Seattle, WA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 14,
+                    "endIndex": 25
+                }
+            }
+        ],
+        "id": "28_000052",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am travelling from Portland, OR."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 33
+                }
+            }
+        ],
+        "id": "28_000054",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I hope to leave on the 2nd."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 26
+                }
+            }
+        ],
+        "id": "28_000056",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station does the bus depart from and which station does it arrive at?"
+        },
+        "context": {},
+        "id": "28_000058",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That is just what I need. Can you reserve me a ticket?"
+        },
+        "context": {},
+        "id": "28_0000510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Two tickets please."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0000512",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No actually it is only for 1 person."
+        },
+        "context": {},
+        "id": "28_0000514",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that is it."
+        },
+        "context": {},
+        "id": "28_0000516",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for your assistance."
+        },
+        "context": {},
+        "id": "28_0000518",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No thank you."
+        },
+        "context": {},
+        "id": "28_0000520",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm planning on taking a trip with a friend. We are leaving on the 7th. Could you please help me find a bus for our trip?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 63,
+                    "endIndex": 70
+                }
+            }
+        ],
+        "id": "28_000060",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "There will be two of us traveling from San Fran to Sacramento, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 51,
+                    "endIndex": 65
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 39,
+                    "endIndex": 47
+                }
+            }
+        ],
+        "id": "28_000062",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Ummm, are there any other buses available? That might be a little early for us."
+        },
+        "context": {},
+        "id": "28_000064",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Ok, that time works for us, but what bus station does the bus leave from? I want to make sure it is not too far from our homes."
+        },
+        "context": {},
+        "id": "28_000066",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that will work. Will you please reserve the bus for us?"
+        },
+        "context": {},
+        "id": "28_000068",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes that is correct. Also, what bus station will we be arriving at in Sacramento?"
+        },
+        "context": {},
+        "id": "28_0000610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you so much!"
+        },
+        "context": {},
+        "id": "28_0000612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that's all I needed. Thanks again."
+        },
+        "context": {},
+        "id": "28_0000614",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you find me a bus leaving on March 14th?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "28_000070",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Fresno amd going to Las Vegas."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 38,
+                    "endIndex": 47
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "28_000072",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available? I need one ticket."
+        },
+        "context": {},
+        "id": "28_000074",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available?"
+        },
+        "context": {},
+        "id": "28_000076",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the destination station?"
+        },
+        "context": {},
+        "id": "28_000078",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station does it leave from?"
+        },
+        "context": {},
+        "id": "28_0000710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good. I want to reserve the bus."
+        },
+        "context": {},
+        "id": "28_0000712",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that works for me."
+        },
+        "context": {},
+        "id": "28_0000714",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks a lot for the help."
+        },
+        "context": {},
+        "id": "28_0000716",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "28_0000718",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Will you help me find a bus?"
+        },
+        "context": {},
+        "id": "28_000080",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave from Fresno, CA to Vegas on the 14th."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 40
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 31
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 44,
+                    "endIndex": 52
+                }
+            }
+        ],
+        "id": "28_000082",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What are the origin and destination stations?"
+        },
+        "context": {},
+        "id": "28_000084",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Great."
+        },
+        "context": {},
+        "id": "28_000086",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes."
+        },
+        "context": {},
+        "id": "28_000088",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "4 tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0000810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's right."
+        },
+        "context": {},
+        "id": "28_0000812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all for now."
+        },
+        "context": {},
+        "id": "28_0000814",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find a bus?"
+        },
+        "context": {},
+        "id": "28_000090",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I have a party of 2, and we are leaving from Sacramento, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 59
+                }
+            }
+        ],
+        "id": "28_000092",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "San Diego, please."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "endIndex": 9
+                }
+            }
+        ],
+        "id": "28_000094",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to leave on the 11th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 43
+                }
+            }
+        ],
+        "id": "28_000096",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station does it depart from?"
+        },
+        "context": {},
+        "id": "28_000098",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are they other options?"
+        },
+        "context": {},
+        "id": "28_0000910",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there other options?"
+        },
+        "context": {},
+        "id": "28_0000912",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station will it go to?"
+        },
+        "context": {},
+        "id": "28_0000914",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good."
+        },
+        "context": {},
+        "id": "28_0000916",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes."
+        },
+        "context": {},
+        "id": "28_0000918",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that sounds good. What bus station am I departing from?"
+        },
+        "context": {},
+        "id": "28_0000920",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks."
+        },
+        "context": {},
+        "id": "28_0000922",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, thank you."
+        },
+        "context": {},
+        "id": "28_0000924",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me search for a bus?"
+        },
+        "context": {},
+        "id": "28_000100",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to go to Fresno, CA. I am planning to leave on today. I am leaving from SFO."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 26
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 54,
+                    "endIndex": 59
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 79,
+                    "endIndex": 82
+                }
+            }
+        ],
+        "id": "28_000102",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any other buses available? It is for three people."
+        },
+        "context": {},
+        "id": "28_000104",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the bus station I am leaving from? Which bus station am I reaching?"
+        },
+        "context": {},
+        "id": "28_000106",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there any buses available?"
+        },
+        "context": {},
+        "id": "28_000108",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "28_0001010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, I don't want to buy tickets now. That's all I need."
+        },
+        "context": {},
+        "id": "28_0001012",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please help me to find a bus."
+        },
+        "context": {},
+        "id": "28_000110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm traveling from Fresno, CA to San Francisco on the 14th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 19,
+                    "endIndex": 29
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 54,
+                    "endIndex": 72
+                }
+            }
+        ],
+        "id": "28_000112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are any other buses available?"
+        },
+        "context": {},
+        "id": "28_000114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good to me."
+        },
+        "context": {},
+        "id": "28_000116",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need 3 tickets on that bus."
+        },
+        "context": {},
+        "id": "28_000118",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's right. What's my departure bus station and arrival bus station?"
+        },
+        "context": {},
+        "id": "28_0001110",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you very much for the help."
+        },
+        "context": {},
+        "id": "28_0001112",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. Thank you. That's all I need for now."
+        },
+        "context": {},
+        "id": "28_0001114",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find a bus."
+        },
+        "context": {},
+        "id": "28_000120",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to leave in the 5th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 40
+                }
+            }
+        ],
+        "id": "28_000122",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need a ticket from Fresno to Long Beach, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 31,
+                    "endIndex": 45
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 27
+                }
+            }
+        ],
+        "id": "28_000124",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good."
+        },
+        "context": {},
+        "id": "28_000126",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, please."
+        },
+        "context": {},
+        "id": "28_000128",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need three tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0001210",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, change that to 2 tickets."
+        },
+        "context": {},
+        "id": "28_0001212",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that works."
+        },
+        "context": {},
+        "id": "28_0001214",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for your help."
+        },
+        "context": {},
+        "id": "28_0001216",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, that is all. Thanks."
+        },
+        "context": {},
+        "id": "28_0001218",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Please help me search for a bus."
+        },
+        "context": {},
+        "id": "28_000130",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving from Long Beach, CA to Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "28_000132",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving March 9th."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 13,
+                    "endIndex": 22
+                }
+            }
+        ],
+        "id": "28_000134",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Any other options?"
+        },
+        "context": {},
+        "id": "28_000136",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That will work, reserve please."
+        },
+        "context": {},
+        "id": "28_000138",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "For two people."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0001310",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that is correct. What station am I leaving from?"
+        },
+        "context": {},
+        "id": "28_0001312",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you, that is all."
+        },
+        "context": {},
+        "id": "28_0001314",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to find a bus?"
+        },
+        "context": {},
+        "id": "28_000140",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to go from Las Vegas to San Francisco."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 33,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 29
+                }
+            }
+        ],
+        "id": "28_000142",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "The 14th of March, please."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 4,
+                    "endIndex": 17
+                }
+            }
+        ],
+        "id": "28_000144",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station does it leave from, and which station does it arrive at?"
+        },
+        "context": {},
+        "id": "28_000146",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there other options? I'd like to go from Sacramento, CA to Long Beach."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 63,
+                    "endIndex": 73
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 45,
+                    "endIndex": 59
+                }
+            }
+        ],
+        "id": "28_000148",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Are there other options?"
+        },
+        "context": {},
+        "id": "28_0001410",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds good. I'd like to make a reservation."
+        },
+        "context": {},
+        "id": "28_0001412",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Four, please."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0001414",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, please."
+        },
+        "context": {},
+        "id": "28_0001416",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which station does it leave from, and which station does it arrive at?"
+        },
+        "context": {},
+        "id": "28_0001418",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks, that's all I needed."
+        },
+        "context": {},
+        "id": "28_0001420",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll be leaving LA. Search buses for me. I'll be needing one ticket."
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "28_000150",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like to go to Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "28_000152",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Nevermind. I would rather go to Long Beach, CA next Monday. I'll be traveling with 4 people."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 46
+                }
+            },
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 47,
+                    "endIndex": 58
+                }
+            }
+        ],
+        "id": "28_000154",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I don't know. Are there any other buses available on that day?"
+        },
+        "context": {},
+        "id": "28_000156",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station would I be departing from and arriving at?"
+        },
+        "context": {},
+        "id": "28_000158",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Check for more buses please."
+        },
+        "context": {},
+        "id": "28_0001510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, please reserve this one."
+        },
+        "context": {},
+        "id": "28_0001512",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Perfect. Please book this."
+        },
+        "context": {},
+        "id": "28_0001514",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks. That will be all."
+        },
+        "context": {},
+        "id": "28_0001516",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hey there, can you get me a bus to San Diego?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 44
+                }
+            }
+        ],
+        "id": "28_000160",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll be leaving from Anaheim, CA on the 8th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 57
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "28_000162",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Which bus station does it arrive at?"
+        },
+        "context": {},
+        "id": "28_000164",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else? I need three tickets."
+        },
+        "context": {},
+        "id": "28_000166",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Is there anything else?"
+        },
+        "context": {},
+        "id": "28_000168",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Where does it depart from? What's the destination station?"
+        },
+        "context": {},
+        "id": "28_0001610",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That will be great. Please book the tickets."
+        },
+        "context": {},
+        "id": "28_0001612",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's perfect."
+        },
+        "context": {},
+        "id": "28_0001614",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks so much. That's all."
+        },
+        "context": {},
+        "id": "28_0001616",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am looking for a bus. I want to go to San Diego"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 49
+                }
+            }
+        ],
+        "id": "28_000170",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I will leaving from Anaheim, CA on March 10th and need a room for one person"
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location",
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 45
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 20,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "28_000172",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "WHat bus station will I be leaving from."
+        },
+        "context": {},
+        "id": "28_000174",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What bus station will I be arriving at?"
+        },
+        "context": {},
+        "id": "28_000176",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds excellent. I will reserve that bus."
+        },
+        "context": {},
+        "id": "28_000178",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That works great for me"
+        },
+        "context": {},
+        "id": "28_0001710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thanks for the help"
+        },
+        "context": {},
+        "id": "28_0001712",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No thanks"
+        },
+        "context": {},
+        "id": "28_0001714",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I need to find a bus. Can you assist me with that?"
+        },
+        "context": {},
+        "id": "28_000180",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to go to Fresno, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 18,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "28_000182",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to leave on the 4th of this month."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 42
+                }
+            }
+        ],
+        "id": "28_000184",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll be departing from San Diego."
+        },
+        "context": {
+            "requestedSlots": [
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "28_000186",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you tell me where that arrives?"
+        },
+        "context": {},
+        "id": "28_000188",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Where would I be leaving from?"
+        },
+        "context": {},
+        "id": "28_0001810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That would work for me."
+        },
+        "context": {},
+        "id": "28_0001812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, I'd like to buy them."
+        },
+        "context": {},
+        "id": "28_0001814",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'll need four tickets."
+        },
+        "context": {
+            "requestedSlots": [
+                "travelers"
+            ]
+        },
+        "id": "28_0001816",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm sorry, can you make that two tickets?"
+        },
+        "context": {},
+        "id": "28_0001818",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That is correct."
+        },
+        "context": {},
+        "id": "28_0001820",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you for your assistance."
+        },
+        "context": {},
+        "id": "28_0001822",
+        "splitKey": 1.0
+    }
+]
