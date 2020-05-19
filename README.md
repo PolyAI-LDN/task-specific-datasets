@@ -130,6 +130,17 @@ dstc8/RentalCars_1/train_4.json,54
 
 When using the datasets in your work, please cite CITE_TODO.
 
+```bibtex
+@inproceedings{CoopeFarghly2020,
+    Author      = {Sam Coope and Tyler Farghly and Daniela Gerz and Ivan Vulić and Matthew Henderson},
+    Title       = {Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations},
+    Year        = {2020},
+    url         = {https://arxiv.org/abs/2005.08866},
+    booktitle   = {Arxiv},
+}
+
+```
+
 
 ## License
 The datasets shared on this repository are licensed under the license found in the LICENSE file.
