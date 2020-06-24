@@ -36,7 +36,7 @@ When using the banking dataset in your work, please cite [Efficient Intent Detec
     month       = {mar},
     note        = {Data available at https://github.com/PolyAI-LDN/task-specific-datasets},
     url         = {https://arxiv.org/abs/2003.04807},
-    booktitle   = {Arxiv},
+    booktitle   = {Proceedings of the 2nd Workshop on NLP for ConvAI - ACL 2020}
 }
 
 ```
