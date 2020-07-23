@@ -128,7 +128,7 @@ dstc8/RentalCars_1/train_4.json,54
 ```
 ### Citations
 
-When using the datasets in your work, please cite CITE_TODO.
+When using the datasets in your work, please cite [the Span-ConveRT paper](https://arxiv.org/abs/2005.08866).
 
 ```bibtex
 @inproceedings{CoopeFarghly2020,
@@ -136,7 +136,7 @@ When using the datasets in your work, please cite CITE_TODO.
     Title       = {Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations},
     Year        = {2020},
     url         = {https://arxiv.org/abs/2005.08866},
-    booktitle   = {Arxiv},
+    publisher   = {ACL},
 }
 
 ```
