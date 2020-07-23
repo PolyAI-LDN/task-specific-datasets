@@ -1,0 +1,546 @@
+[
+    {
+        "userInput": {
+            "text": "Hello, I have some friends visiting and am wondering if there are any interesting events to take them to."
+        },
+        "context": {},
+        "id": "11_000440",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Oh yes, I am looking for events in San Francisco. A concert would probably be good, but I'm not set on that for sure."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event",
+                "category"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 35,
+                    "endIndex": 48
+                }
+            }
+        ],
+        "id": "11_000442",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Ok, that sounds like it will work. That's all I need right now."
+        },
+        "context": {},
+        "id": "11_000444",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me look for events to go to?"
+        },
+        "context": {},
+        "id": "11_000450",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Okay, How about a Games event, like American Football near Oakland."
+        },
+        "context": {
+            "requestedSlots": [
+                "category",
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "subcategory",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 53
+                }
+            },
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 59,
+                    "endIndex": 66
+                }
+            }
+        ],
+        "id": "11_000452",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds interesting, what's the address?"
+        },
+        "context": {},
+        "id": "11_000454",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds perfect."
+        },
+        "context": {},
+        "id": "11_000456",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, I'm good thank you."
+        },
+        "context": {},
+        "id": "11_000458",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Could you assist me in searching for interesting activities?"
+        },
+        "context": {},
+        "id": "11_000460",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm searching for activities near Oakland. I enjoy Games activities."
+        },
+        "context": {
+            "requestedSlots": [
+                "category",
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 34,
+                    "endIndex": 41
+                }
+            }
+        ],
+        "id": "11_000462",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That's perfect for me."
+        },
+        "context": {},
+        "id": "11_000464",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, maybe later. That's all."
+        },
+        "context": {},
+        "id": "11_000466",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Could you find me some cool events?"
+        },
+        "context": {},
+        "id": "11_000470",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "NY."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "endIndex": 2
+                }
+            }
+        ],
+        "id": "11_000472",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I like Concert events."
+        },
+        "context": {
+            "requestedSlots": [
+                "category"
+            ]
+        },
+        "id": "11_000474",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the address of the event."
+        },
+        "context": {},
+        "id": "11_000476",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'd like to know more about the event."
+        },
+        "context": {},
+        "id": "11_000478",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds cool. Thanks for this."
+        },
+        "context": {},
+        "id": "11_0004710",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Hello, can you help me find some interesting events?"
+        },
+        "context": {},
+        "id": "11_000480",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, I would like to know if there are events around Berkeley, I am particularly interested in Concert events. Thank you."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 53,
+                    "endIndex": 61
+                }
+            }
+        ],
+        "id": "11_000482",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Excuse me, what is the address of the event?"
+        },
+        "context": {},
+        "id": "11_000484",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Thank you very much. Can you give me more details about this event?"
+        },
+        "context": {},
+        "id": "11_000486",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Wow, that's great!"
+        },
+        "context": {},
+        "id": "11_000488",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, not at the moment."
+        },
+        "context": {},
+        "id": "11_0004810",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. Thank you, you were very helpful."
+        },
+        "context": {},
+        "id": "11_0004812",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am looking for some events to go to on Wednesday next week. I want to have fun!"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "date",
+                "valueSpan": {
+                    "startIndex": 41,
+                    "endIndex": 60
+                }
+            }
+        ],
+        "id": "11_000490",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Somewhere in the Napa area."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 17,
+                    "endIndex": 21
+                }
+            }
+        ],
+        "id": "11_000492",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I think a concert would be cool."
+        },
+        "context": {
+            "requestedSlots": [
+                "category"
+            ]
+        },
+        "id": "11_000494",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds awesome"
+        },
+        "context": {},
+        "id": "11_000496",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No not now, that's all I needed at the moment."
+        },
+        "context": {},
+        "id": "11_000498",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I would like enjoy some games.Are there any such event?"
+        },
+        "context": {},
+        "id": "11_000500",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, I prefer one in Seattle."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 28
+                }
+            }
+        ],
+        "id": "11_000502",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Shall I get details?"
+        },
+        "context": {},
+        "id": "11_000504",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Let me know about the venue."
+        },
+        "context": {},
+        "id": "11_000506",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Good, I think that will do."
+        },
+        "context": {},
+        "id": "11_000508",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No. Not needed, thank you."
+        },
+        "context": {},
+        "id": "11_0005010",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Can you help me find interesting events on the 13th of this month?"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "date",
+                "valueSpan": {
+                    "startIndex": 47,
+                    "endIndex": 65
+                }
+            }
+        ],
+        "id": "11_000510",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Anaheim, CA."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "endIndex": 11
+                }
+            }
+        ],
+        "id": "11_000512",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I like Match events?"
+        },
+        "context": {
+            "requestedSlots": [
+                "category"
+            ]
+        },
+        "id": "11_000514",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What's the venue address, and can you tell me more about this event?"
+        },
+        "context": {},
+        "id": "11_000516",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "That sounds good, and that's all I need."
+        },
+        "context": {},
+        "id": "11_000518",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to find some cool events."
+        },
+        "context": {},
+        "id": "11_000520",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to find events in Livermore."
+        },
+        "context": {
+            "requestedSlots": [
+                "city_of_event"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "city_of_event",
+                "valueSpan": {
+                    "startIndex": 25,
+                    "endIndex": 34
+                }
+            }
+        ],
+        "id": "11_000522",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to find a concert."
+        },
+        "context": {
+            "requestedSlots": [
+                "category"
+            ]
+        },
+        "id": "11_000524",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Yes, that's great."
+        },
+        "context": {},
+        "id": "11_000526",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "No, now right now."
+        },
+        "context": {},
+        "id": "11_000528",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I'm looking to go to a football match"
+        },
+        "context": {},
+        "labels": [
+            {
+                "slot": "subcategory",
+                "valueSpan": {
+                    "startIndex": 23,
+                    "endIndex": 31
+                }
+            }
+        ],
+        "id": "11_000530",
+        "splitKey": 1.0
+    }
+]
