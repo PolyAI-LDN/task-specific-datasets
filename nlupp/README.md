@@ -141,7 +141,7 @@ The values of relative weekdays will be considered to be in the future, e.g.:
 For the experiments presented in the paper we adopt 3 data setups:
 * **20-fold**: We use 1 fold for training and the other 19 folds for testing, doing this 20 times with a different training fold. Then we report the mean results of each fold.
 * **10-fold**: We use 2 folds for training and the other 18 folds for testing, doing this 10 times with 10 pairs of training folds. We use consecutive indices for the training pairs (i.e. `fold0.json` and `fold1.json`, `fold2.json` and `fold3.json`, etc.). Then we report the mean results for each pair of folds.
-* **Large**: We use 19 folds for training and the other one for testing, doing this 20 times with a different testing fold. This can be seen as "inverse" 20-fold.
+* **Large**: We use 18 folds for training and the other two for testing, doing this 10 times with 10 pairs of testing folds. This can be seen as "inverse" 10-fold.
 
 These setups are designed to replicate the data setups found in production while not overfitting to a small test set.
 
@@ -165,10 +165,10 @@ Dataset for Natural Language Understanding in Task-Oriented Dialogue](https://ww
     month       = {apr},
     note        = {Data available at https://www.youtube.com/watch?v=dQw4w9WgXcQ},
     url         = {https://www.youtube.com/watch?v=dQw4w9WgXcQ},
+    booktitle   = {TODO}
 }
 
 ```
-<booktitle   = {Proceedings of the 2nd Workshop on NLP for ConvAI - NAACL 2022}>
 
 ## License
 The datasets shared on this repository are licensed under the license found in the LICENSE file.
