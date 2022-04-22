@@ -5,7 +5,7 @@
 *A Multi-Label, Slot-Rich, Generalisable Dataset for Natural Language Understanding in Task-Oriented Dialogue*
 
 
-This dataset presents a much more challenging evaluation environment for dialogue NLU models. It is divided in 2 domains, 
+This dataset presents a challenging evaluation environment for dialogue NLU models. It is divided in 2 domains, 
 _banking_ and _hotels_, and provides high quality examples combining a large amount of _multi-label_ intents and slots. 
 More details on the dataset can be found in [our publication](https://www.youtube.com/watch?v=dQw4w9WgXcQ). 
 
@@ -27,7 +27,7 @@ More details on the dataset can be found in [our publication](https://www.youtub
 
 ## Data structure
 
-The data is divided in 2 domains _banking_ and _hotels_, each of it in their corresponding directories. 
+The data is divided in 2 domains, _banking_ and _hotels_, each of it in their corresponding directories. 
 The data for each of these domains is divided in 20 folds, each of them in a json file named `fold0.json`,
 `fold1.json`, etc. The structure of each example is the following:
 ```json
