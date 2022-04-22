@@ -1,0 +1,1574 @@
+[
+  {
+    "text": "Say it one more time",
+    "intents": [
+      "repeat"
+    ]
+  },
+  {
+    "text": "If I lost my card, how long do I have to wait to make another withdrawal with a new or a replacement card?",
+    "intents": [
+      "withdrawal",
+      "lost_stolen",
+      "how_long",
+      "new"
+    ]
+  },
+  {
+    "text": "send 4900 euros to domineque curl after half past 17 today",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "date": {
+        "text": "today",
+        "span": [
+          53,
+          58
+        ],
+        "value": {
+          "day": 15,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "time_from": {
+        "text": "half past 17",
+        "span": [
+          40,
+          52
+        ],
+        "value": {
+          "hour": 17,
+          "minute": 30
+        }
+      },
+      "amount_of_money": {
+        "text": "4900 euros",
+        "span": [
+          5,
+          15
+        ],
+        "value": {
+          "amount": 4900.0,
+          "currency": "EUR"
+        }
+      },
+      "person_name": {
+        "text": "domineque curl",
+        "span": [
+          19,
+          33
+        ],
+        "value": "domineque curl"
+      }
+    }
+  },
+  {
+    "text": "Can you tell me about my last 9 transactions?",
+    "intents": [
+      "request_info",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "number": {
+        "text": "9",
+        "span": [
+          30,
+          31
+        ],
+        "value": 9
+      }
+    }
+  },
+  {
+    "text": "Can you tell me the exact time of my latest transaction to daryl bingham, from this evening?",
+    "intents": [
+      "when",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "time_period": {
+        "text": "evening",
+        "span": [
+          84,
+          91
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "hour": 18,
+            "minute": 0
+          },
+          "to": {
+            "hour": 0,
+            "minute": 0
+          }
+        }
+      },
+      "person_name": {
+        "text": "daryl bingham",
+        "span": [
+          59,
+          72
+        ],
+        "value": "daryl bingham"
+      }
+    }
+  },
+  {
+    "text": "Can you tell me the exact time of my latest transaction to kyonna lafollette, from this evening?",
+    "intents": [
+      "when",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "date": {
+        "text": "this evening",
+        "span": [
+          83,
+          95
+        ],
+        "value": {
+          "day": 15,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "person_name": {
+        "text": "kyonna lafollette",
+        "span": [
+          59,
+          76
+        ],
+        "value": "kyonna lafollette"
+      }
+    }
+  },
+  {
+    "text": "nope, transfer that money to my business account.",
+    "intents": [
+      "transfer_payment_deposit",
+      "deny",
+      "business",
+      "account"
+    ]
+  },
+  {
+    "text": "make a standing order for 610 dollars on the 22nd of each month",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "standing_order"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "22nd of each month",
+        "span": [
+          45,
+          63
+        ],
+        "values": {
+          "type": "periodic"
+        }
+      },
+      "amount_of_money": {
+        "text": "610 dollars",
+        "span": [
+          26,
+          37
+        ],
+        "value": {
+          "amount": 610.0,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "text": "about those standing orders I set",
+    "intents": [
+      "standing_order"
+    ]
+  },
+  {
+    "text": "i understand, that's all i need",
+    "intents": [
+      "acknowledge",
+      "end_call"
+    ]
+  },
+  {
+    "text": "oh really? Has the price of bars and restaurants gone up this week?",
+    "intents": [
+      "request_info",
+      "more_higher_after",
+      "acknowledge"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "this week",
+        "span": [
+          57,
+          66
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 14,
+            "month": 3,
+            "year": 2022
+          },
+          "to": {
+            "day": 20,
+            "month": 3,
+            "year": 2022
+          }
+        }
+      },
+      "shopping_category": {
+        "text": "bars and restaurants",
+        "span": [
+          28,
+          48
+        ],
+        "value": "bars and restaurants"
+      }
+    }
+  },
+  {
+    "text": "when will my balance be updated after i deposit a cheque?",
+    "intents": [
+      "cheque",
+      "balance",
+      "when",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "This cheque is less than 300$.",
+    "intents": [
+      "cheque",
+      "less_lower_before"
+    ],
+    "slots": {
+      "amount_of_money": {
+        "text": "300$",
+        "span": [
+          25,
+          29
+        ],
+        "value": {
+          "amount": 300.0,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  {
+    "text": "will it arrive before the 15th October",
+    "intents": [
+      "arrival",
+      "less_lower_before"
+    ],
+    "slots": {
+      "date": {
+        "text": "15th October",
+        "span": [
+          26,
+          38
+        ],
+        "value": {
+          "day": 15,
+          "month": 10,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "I need this to arrive before the 14 Jan",
+    "intents": [
+      "arrival",
+      "less_lower_before"
+    ],
+    "slots": {
+      "date": {
+        "text": "14 Jan",
+        "span": [
+          33,
+          39
+        ],
+        "value": {
+          "day": 14,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "I lost my debit card yesterday, so I'd like to apply for a new one",
+    "intents": [
+      "debit",
+      "make_open_apply_setup_get_activate",
+      "lost_stolen",
+      "card",
+      "new"
+    ]
+  },
+  {
+    "text": "Yes, I lost it",
+    "intents": [
+      "affirm",
+      "lost_stolen"
+    ]
+  },
+  {
+    "text": "I want a new credit card",
+    "intents": [
+      "credit",
+      "card",
+      "make_open_apply_setup_get_activate",
+      "new"
+    ]
+  },
+  {
+    "text": "yes, I am really not sure which address is connected to that credit card.",
+    "intents": [
+      "dont_know",
+      "credit",
+      "card",
+      "affirm"
+    ]
+  },
+  {
+    "text": "how much did I spend from the 3rd to the 6th of January",
+    "intents": [
+      "transfer_payment_deposit",
+      "how_much"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "3rd",
+        "span": [
+          30,
+          33
+        ],
+        "value": {
+          "day": 3,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "6th of January",
+        "span": [
+          41,
+          55
+        ],
+        "value": {
+          "day": 6,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "how much did I spend between the 3rd to the 6th of January",
+    "intents": [
+      "transfer_payment_deposit",
+      "how_much"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "3rd",
+        "span": [
+          33,
+          36
+        ],
+        "value": {
+          "day": 3,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "6th of January",
+        "span": [
+          44,
+          58
+        ],
+        "value": {
+          "day": 6,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "from the 3rd until the 6th of January",
+    "intents": [
+      "transfer_payment_deposit",
+      "how_much"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "3rd",
+        "span": [
+          9,
+          12
+        ],
+        "value": {
+          "day": 3,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "6th of January",
+        "span": [
+          23,
+          37
+        ],
+        "value": {
+          "day": 6,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "from the 3rd to the 6th of January",
+    "intents": [
+      "transfer_payment_deposit",
+      "how_much"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "3rd",
+        "span": [
+          9,
+          12
+        ],
+        "value": {
+          "day": 3,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "6th of January",
+        "span": [
+          20,
+          34
+        ],
+        "value": {
+          "day": 6,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "how much did I spend between the 3rd until the 6th of January",
+    "intents": [
+      "transfer_payment_deposit",
+      "how_much"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "3rd",
+        "span": [
+          33,
+          36
+        ],
+        "value": {
+          "day": 3,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "6th of January",
+        "span": [
+          47,
+          61
+        ],
+        "value": {
+          "day": 6,
+          "month": 1,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "was my spending in video games lower than 600\u00a3 till Dec 31",
+    "intents": [
+      "less_lower_before",
+      "request_info",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "date_to": {
+        "text": "Dec 31",
+        "span": [
+          52,
+          58
+        ],
+        "value": {
+          "day": 31,
+          "month": 12,
+          "year": 2022
+        }
+      },
+      "amount_of_money": {
+        "text": "600\u00a3",
+        "span": [
+          42,
+          46
+        ],
+        "value": {
+          "amount": 600.0,
+          "currency": "GBP"
+        }
+      },
+      "shopping_category": {
+        "text": "video games",
+        "span": [
+          19,
+          30
+        ],
+        "value": "video games"
+      }
+    }
+  },
+  {
+    "text": "from the 21st of May",
+    "slots": {
+      "date_from": {
+        "text": "21st of May",
+        "span": [
+          9,
+          20
+        ],
+        "value": {
+          "day": 21,
+          "month": 5,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "Was my dentist lower this week?",
+    "intents": [
+      "less_lower_before",
+      "request_info"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "this week",
+        "span": [
+          21,
+          30
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 14,
+            "month": 3,
+            "year": 2022
+          },
+          "to": {
+            "day": 20,
+            "month": 3,
+            "year": 2022
+          }
+        }
+      },
+      "shopping_category": {
+        "text": "dentist",
+        "span": [
+          7,
+          14
+        ],
+        "value": "dentist"
+      }
+    }
+  },
+  {
+    "text": "Was  dentist lower this week?",
+    "intents": [
+      "less_lower_before",
+      "request_info"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "this week",
+        "span": [
+          19,
+          28
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 14,
+            "month": 3,
+            "year": 2022
+          },
+          "to": {
+            "day": 20,
+            "month": 3,
+            "year": 2022
+          }
+        }
+      },
+      "shopping_category": {
+        "text": "dentist",
+        "span": [
+          5,
+          12
+        ],
+        "value": "dentist"
+      }
+    }
+  },
+  {
+    "text": "What additional medicine expenses have I incurred after 20 past 4 afternoon yesterday?",
+    "intents": [
+      "request_info",
+      "transfer_payment_deposit",
+      "more_higher_after"
+    ],
+    "slots": {
+      "time": {
+        "text": "20 past 4 afternoon",
+        "span": [
+          56,
+          75
+        ],
+        "value": {
+          "hour": 16,
+          "minute": 20
+        }
+      },
+      "date": {
+        "text": "yesterday",
+        "span": [
+          76,
+          85
+        ],
+        "value": {
+          "day": 14,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "shopping_category": {
+        "text": "medicine",
+        "span": [
+          16,
+          24
+        ],
+        "value": "medicine"
+      }
+    }
+  },
+  {
+    "text": "what time is my meeting at the branch tomorrow?",
+    "intents": [
+      "when",
+      "appointment"
+    ],
+    "slots": {
+      "date": {
+        "text": "tomorrow",
+        "span": [
+          38,
+          46
+        ],
+        "value": {
+          "day": 16,
+          "month": 3,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "when does this thing start?",
+    "intents": [
+      "when"
+    ]
+  },
+  {
+    "text": "Hi, I would like to open an account under the name nimesh",
+    "intents": [
+      "account",
+      "make_open_apply_setup_get_activate",
+      "greet"
+    ],
+    "slots": {
+      "person_name": {
+        "text": "nimesh",
+        "span": [
+          51,
+          57
+        ],
+        "value": "nimesh"
+      }
+    }
+  },
+  {
+    "text": "howdy",
+    "intents": [
+      "greet"
+    ]
+  },
+  {
+    "text": "how can i change my pin?",
+    "intents": [
+      "pin",
+      "change",
+      "how"
+    ]
+  },
+  {
+    "text": "i am trying to activate my card using the pin you gave me",
+    "intents": [
+      "pin",
+      "make_open_apply_setup_get_activate",
+      "card"
+    ]
+  },
+  {
+    "text": "thanks so much, can you also revert another payment for the same amount of 85.31 then?",
+    "intents": [
+      "transfer_payment_deposit",
+      "cancel_close_leave_freeze",
+      "thank"
+    ],
+    "slots": {
+      "amount_of_money": {
+        "text": "85.31",
+        "span": [
+          75,
+          80
+        ],
+        "value": {
+          "amount": 85.31,
+          "currency": "ambiguous"
+        }
+      }
+    }
+  },
+  {
+    "text": "Thank you very much",
+    "intents": [
+      "thank"
+    ]
+  },
+  {
+    "text": "i tried to pay with the contactless debit card",
+    "intents": [
+      "debit",
+      "contactless",
+      "card",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "its debit",
+    "intents": [
+      "debit"
+    ]
+  },
+  {
+    "text": "No, it wasn't possible to withdraw any money in Hong Kong using my old card.",
+    "intents": [
+      "deny",
+      "card",
+      "withdrawal",
+      "wrong_notworking_notshowing",
+      "international"
+    ]
+  },
+  {
+    "text": "It had to do with withdrawing money from the ATM",
+    "intents": [
+      "withdrawal"
+    ]
+  },
+  {
+    "text": "How easy it to close my current mortgage arrangement?",
+    "intents": [
+      "cancel_close_leave_freeze",
+      "mortgage",
+      "how"
+    ]
+  },
+  {
+    "text": "How can I check my balance from October last year?",
+    "intents": [
+      "balance",
+      "how",
+      "request_info"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "October last year",
+        "span": [
+          32,
+          49
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 1,
+            "month": 10,
+            "year": 2021
+          },
+          "to": {
+            "day": 31,
+            "month": 10,
+            "year": 2021
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "set up a direct debit with cabs",
+    "intents": [
+      "direct_debit",
+      "make_open_apply_setup_get_activate"
+    ],
+    "slots": {
+      "company_name": {
+        "text": "cabs",
+        "span": [
+          27,
+          31
+        ],
+        "value": "cabs"
+      }
+    }
+  },
+  {
+    "text": "can you cancel the direct debit i have with  gift shop hyatt regencys fair",
+    "intents": [
+      "cancel_close_leave_freeze",
+      "direct_debit"
+    ],
+    "slots": {
+      "company_name": {
+        "text": "gift shop hyatt regencys fair",
+        "span": [
+          45,
+          74
+        ],
+        "value": "gift shop hyatt regencys fair"
+      }
+    }
+  },
+  {
+    "text": "what's the status of that payment to deliveroo",
+    "intents": [
+      "request_info",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "company_name": {
+        "text": "deliveroo",
+        "span": [
+          37,
+          46
+        ],
+        "value": "deliveroo"
+      }
+    }
+  },
+  {
+    "text": "About direct debits",
+    "intents": [
+      "direct_debit"
+    ]
+  },
+  {
+    "text": "I want to get the list of my recent applications made via contactless payment, made to starnisha hilty",
+    "intents": [
+      "request_info",
+      "contactless",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "person_name": {
+        "text": "starnisha hilty",
+        "span": [
+          87,
+          102
+        ],
+        "value": "starnisha hilty"
+      }
+    }
+  },
+  {
+    "text": "How do I know if my card supports contactless?",
+    "intents": [
+      "contactless",
+      "request_info",
+      "card"
+    ]
+  },
+  {
+    "text": "can you tell me the exact mortgage rate since you lowered it in October this year?",
+    "intents": [
+      "mortgage",
+      "fees_interests",
+      "how_much",
+      "less_lower_before"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "October this year",
+        "span": [
+          64,
+          81
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 1,
+            "month": 10,
+            "year": 2022
+          },
+          "to": {
+            "day": 31,
+            "month": 10,
+            "year": 2022
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "I would like to decrease it",
+    "intents": [
+      "change",
+      "less_lower_before"
+    ]
+  },
+  {
+    "text": "So I made a transfer from my savings account but it was declined. I understand I will be refunded, right?",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "savings",
+      "account",
+      "refund",
+      "transfer_payment_deposit",
+      "request_info"
+    ]
+  },
+  {
+    "text": "i have closed my savings account and i want to get a refund of the money i had there",
+    "intents": [
+      "refund",
+      "cancel_close_leave_freeze",
+      "savings",
+      "account"
+    ]
+  },
+  {
+    "text": "why was I charged 1.05 pounds for the transfer I made on Saturday last week?",
+    "intents": [
+      "transfer_payment_deposit",
+      "fees_interests",
+      "why"
+    ],
+    "slots": {
+      "date": {
+        "text": "Saturday last week",
+        "span": [
+          57,
+          75
+        ],
+        "value": {
+          "day": 12,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "amount_of_money": {
+        "text": "1.05 pounds",
+        "span": [
+          18,
+          29
+        ],
+        "value": {
+          "amount": 1.05,
+          "currency": "GBP"
+        }
+      }
+    }
+  },
+  {
+    "text": "how is it possible that i paid by cash and it was reverted",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "transfer_payment_deposit",
+      "why"
+    ]
+  },
+  {
+    "text": "My card was declined and I demand an explanation",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "card",
+      "why"
+    ]
+  },
+  {
+    "text": "10 past 3 p.m. I have an appointment on the 22nd May",
+    "intents": [
+      "appointment"
+    ],
+    "slots": {
+      "time": {
+        "text": "10 past 3 p.m.",
+        "span": [
+          0,
+          14
+        ],
+        "value": {
+          "hour": 15,
+          "minute": 10
+        }
+      },
+      "date": {
+        "text": "22nd May",
+        "span": [
+          44,
+          52
+        ],
+        "value": {
+          "day": 22,
+          "month": 5,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "It's about my appointment",
+    "intents": [
+      "appointment"
+    ]
+  },
+  {
+    "text": "Where can I see my current mortgage rates?",
+    "intents": [
+      "request_info",
+      "mortgage",
+      "fees_interests"
+    ]
+  },
+  {
+    "text": "I have a mortgage?",
+    "intents": [
+      "mortgage",
+      "request_info"
+    ]
+  },
+  {
+    "text": "No last month",
+    "intents": [
+      "deny"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "last month",
+        "span": [
+          3,
+          13
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "day": 1,
+            "month": 2,
+            "year": 2022
+          },
+          "to": {
+            "day": 28,
+            "month": 2,
+            "year": 2022
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "I just cannot send any money abroad, and it's been going on for days!",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "international",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "for days",
+        "span": [
+          60,
+          68
+        ],
+        "values": {
+          "type": "ambiguous"
+        }
+      }
+    }
+  },
+  {
+    "text": "i wanted to ask about loans",
+    "intents": [
+      "loan",
+      "request_info"
+    ]
+  },
+  {
+    "text": "i dont want to talk about loans",
+    "intents": [
+      "loan",
+      "deny"
+    ]
+  },
+  {
+    "text": "So I surpassed my overdraft limit? That's not good, can I talk to someone?",
+    "intents": [
+      "overdraft",
+      "limits",
+      "handoff",
+      "more_higher_after"
+    ]
+  },
+  {
+    "text": "Let me talk to a person",
+    "intents": [
+      "handoff"
+    ]
+  },
+  {
+    "text": "What is my max",
+    "intents": [
+      "how_much",
+      "limits",
+      "more_higher_after"
+    ]
+  },
+  {
+    "text": "What is my current max",
+    "intents": [
+      "how_much",
+      "limits",
+      "more_higher_after"
+    ]
+  },
+  {
+    "text": "I cannot figure out how to increase my overdraft limits.",
+    "intents": [
+      "more_higher_after",
+      "overdraft",
+      "limits",
+      "dont_know",
+      "change",
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "just checking the limit on it",
+    "intents": [
+      "limits"
+    ]
+  },
+  {
+    "text": "Your overdraft fees are insane!",
+    "intents": [
+      "overdraft",
+      "fees_interests"
+    ]
+  },
+  {
+    "text": "Can you change the date for that international transfer from my current account?",
+    "intents": [
+      "international",
+      "change",
+      "account",
+      "transfer_payment_deposit",
+      "current"
+    ]
+  },
+  {
+    "text": "No, I don't want to change that",
+    "intents": [
+      "change",
+      "deny"
+    ]
+  },
+  {
+    "text": "Tell me my balance",
+    "intents": [
+      "how_much",
+      "balance"
+    ]
+  },
+  {
+    "text": "What was the exact amount I paid to nyla reason some months ago?",
+    "intents": [
+      "how_much",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "date": {
+        "text": "some months ago",
+        "span": [
+          48,
+          63
+        ],
+        "value": "ambiguous"
+      },
+      "person_name": {
+        "text": "nyla reason",
+        "span": [
+          36,
+          47
+        ],
+        "value": "nyla reason"
+      }
+    }
+  },
+  {
+    "text": "How do I check the balance on my card?",
+    "intents": [
+      "balance",
+      "request_info",
+      "card"
+    ]
+  },
+  {
+    "text": "yep, 3661\u20ac",
+    "intents": [
+      "affirm"
+    ],
+    "slots": {
+      "amount_of_money": {
+        "text": "3661\u20ac",
+        "span": [
+          5,
+          10
+        ],
+        "value": {
+          "amount": 3661.0,
+          "currency": "EUR"
+        }
+      }
+    }
+  },
+  {
+    "text": "Send the rent payment to siara",
+    "intents": [
+      "transfer_payment_deposit",
+      "make_open_apply_setup_get_activate"
+    ],
+    "slots": {
+      "person_name": {
+        "text": "siara",
+        "span": [
+          25,
+          30
+        ],
+        "value": "siara"
+      }
+    }
+  },
+  {
+    "text": "schedule the payment to jovani gabaldon at 4 15 in the morning",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "transfer_payment_deposit"
+    ],
+    "slots": {
+      "time": {
+        "text": "4 15 in the morning",
+        "span": [
+          43,
+          62
+        ],
+        "value": {
+          "hour": 4,
+          "minute": 15
+        }
+      },
+      "person_name": {
+        "text": "jovani gabaldon",
+        "span": [
+          24,
+          39
+        ],
+        "value": "jovani gabaldon"
+      }
+    }
+  },
+  {
+    "text": "Yes, my savings account will mature on 2016",
+    "intents": [
+      "affirm",
+      "savings",
+      "account"
+    ],
+    "slots": {
+      "date": {
+        "text": "2016",
+        "span": [
+          39,
+          43
+        ],
+        "value": {
+          "day": 1,
+          "month": 1,
+          "year": 2016
+        }
+      }
+    }
+  },
+  {
+    "text": "I want to open a new savings account",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "savings",
+      "account",
+      "new"
+    ]
+  },
+  {
+    "text": "do you charge any maintenance fees for your current accounts?",
+    "intents": [
+      "request_info",
+      "current",
+      "account",
+      "fees_interests"
+    ]
+  },
+  {
+    "text": "That's what I said, 23:55 night",
+    "intents": [
+      "affirm"
+    ],
+    "slots": {
+      "time": {
+        "text": "23:55 night",
+        "span": [
+          20,
+          31
+        ],
+        "value": {
+          "hour": 23,
+          "minute": 55
+        }
+      }
+    }
+  },
+  {
+    "text": "I am not really sure, can you just freeze my current account for now?",
+    "intents": [
+      "cancel_close_leave_freeze",
+      "dont_know",
+      "account",
+      "current"
+    ]
+  },
+  {
+    "text": "yeah, no problem freezing that card, I'm not using it anyhow...",
+    "intents": [
+      "affirm",
+      "cancel_close_leave_freeze",
+      "card"
+    ]
+  },
+  {
+    "text": "Can I make that payment also while I'm abroad?",
+    "intents": [
+      "request_info",
+      "transfer_payment_deposit",
+      "international"
+    ]
+  },
+  {
+    "text": "I was trying to make an international transfer from the app",
+    "intents": [
+      "international",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "I tried to put more money to my account yesterday, but this transaction is still pending for some reason.",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "transfer_payment_deposit",
+      "account"
+    ]
+  },
+  {
+    "text": "You are telling me I can access my account from my phone?",
+    "intents": [
+      "request_info",
+      "account"
+    ]
+  },
+  {
+    "text": "im not sure if its a transfer",
+    "intents": [
+      "dont_know",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "I would like to top up my card",
+    "intents": [
+      "card",
+      "make_open_apply_setup_get_activate",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "make the application",
+    "intents": [
+      "make_open_apply_setup_get_activate"
+    ]
+  },
+  {
+    "text": "Is it possible to pay with my other card?",
+    "intents": [
+      "request_info",
+      "transfer_payment_deposit",
+      "card"
+    ]
+  },
+  {
+    "text": "I was trying to top up my card but it was reverted",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "card",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "June 21",
+    "slots": {
+      "date": {
+        "text": "June 21",
+        "span": [
+          0,
+          7
+        ],
+        "value": {
+          "day": 21,
+          "month": 6,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "That transaction is still pending although I made a payment almost 38 days ago.",
+    "intents": [
+      "transfer_payment_deposit",
+      "wrong_notworking_notshowing"
+    ],
+    "slots": {
+      "date": {
+        "text": "38 days ago",
+        "span": [
+          67,
+          78
+        ],
+        "value": {
+          "day": 5,
+          "month": 2,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "yes it was reverted",
+    "intents": [
+      "affirm",
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "Yes, I did pay with money",
+    "intents": [
+      "affirm",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "no, no, just no!",
+    "intents": [
+      "deny"
+    ]
+  },
+  {
+    "text": "that's not what I said at all",
+    "intents": [
+      "deny"
+    ]
+  },
+  {
+    "text": "The transfer didn't go through",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "transfer_payment_deposit"
+    ]
+  },
+  {
+    "text": "is it broken?",
+    "intents": [
+      "wrong_notworking_notshowing",
+      "request_info"
+    ]
+  },
+  {
+    "text": "Which is the address of the closest branch?",
+    "intents": [
+      "request_info"
+    ]
+  },
+  {
+    "text": "It was reverted",
+    "intents": [
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "it looks like this is not working, lets move on to something else",
+    "intents": [
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "i already have one",
+    "intents": [
+      "existing"
+    ]
+  },
+  {
+    "text": "From my phone"
+  }
+]
