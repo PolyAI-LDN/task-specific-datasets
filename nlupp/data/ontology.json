@@ -1,0 +1,481 @@
+{
+  "intents": {
+    "affirm": {
+      "description": "is the intent to affirm something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "deny": {
+      "description": "is the intent to deny something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "dont_know": {
+      "description": "is the intent to say I don\u2019t know?",
+      "domain": [
+        "general"
+      ]
+    },
+    "acknowledge": {
+      "description": "is the intent to acknowledge what was said?",
+      "domain": [
+        "general"
+      ]
+    },
+    "greet": {
+      "description": "is the intent to greet someone?",
+      "domain": [
+        "general"
+      ]
+    },
+    "end_call": {
+      "description": "is the intent to end call or say goodbye?",
+      "domain": [
+        "general"
+      ]
+    },
+    "handoff": {
+      "description": "is the intent to speak to a human or hand off?",
+      "domain": [
+        "general"
+      ]
+    },
+    "thank": {
+      "description": "is the intent to thank someone?",
+      "domain": [
+        "general"
+      ]
+    },
+    "repeat": {
+      "description": "is the intent asking to repeat the previous sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "cancel_close_leave_freeze": {
+      "description": "is the intent asking about canceling or closing something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "change": {
+      "description": "is the intent to change or modify something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "make_open_apply_setup_get_activate": {
+      "description": "is the intent to make, open, apply, set up or activate something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "request_info": {
+      "description": "is the intent to ask or request some information?",
+      "domain": [
+        "general"
+      ]
+    },
+    "how": {
+      "description": "is the intent asking how to do something?",
+      "domain": [
+        "general"
+      ]
+    },
+    "why": {
+      "description": "is the intent to ask why something happened or needs to be done?",
+      "domain": [
+        "general"
+      ]
+    },
+    "when": {
+      "description": "is the intent to ask about when or what time something happens?",
+      "domain": [
+        "general"
+      ]
+    },
+    "how_much": {
+      "description": "is the intent asking about some quantity or how much?",
+      "domain": [
+        "general"
+      ]
+    },
+    "how_long": {
+      "description": "is the intent asking about how long something takes?",
+      "domain": [
+        "general"
+      ]
+    },
+    "wrong_notworking_notshowing": {
+      "description": "is the intent asking about something wrong, missing or not working?",
+      "domain": [
+        "general"
+      ]
+    },
+    "lost_stolen": {
+      "description": "is the intent asking about something being lost or stolen?",
+      "domain": [
+        "general"
+      ]
+    },
+    "more_higher_after": {
+      "description": "is the intent to indicate something more, higher, after or increasing?",
+      "domain": [
+        "general"
+      ]
+    },
+    "less_lower_before": {
+      "description": "is the intent to indicate something less, lower, before or decreasing?",
+      "domain": [
+        "general"
+      ]
+    },
+    "new": {
+      "description": "is the intent asking about something new?",
+      "domain": [
+        "general"
+      ]
+    },
+    "existing": {
+      "description": "is the intent asking about something that already exists?",
+      "domain": [
+        "general"
+      ]
+    },
+    "limits": {
+      "description": "is the intent asking about some sort of limit?",
+      "domain": [
+        "general"
+      ]
+    },
+    "savings": {
+      "description": "is the intent asking about the savings account?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "current": {
+      "description": "is the intent asking about the current account?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "business": {
+      "description": "is the intent to ask something about the business account?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "credit": {
+      "description": "is the intent asking about something related to credit?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "debit": {
+      "description": "is the intent asking about something related to debit?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "contactless": {
+      "description": "is the intent to ask about contactless?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "international": {
+      "description": "is the intent to ask about something related to international issues?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "account": {
+      "description": "is the intent asking about some account?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "transfer_payment_deposit": {
+      "description": "is the intent to ask about something related to a transfer, payment or deposit?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "appointment": {
+      "description": "is the intent to ask about something about an appointment?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "arrival": {
+      "description": "is the intent to ask about the arrival of something?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "balance": {
+      "description": "is the intent to ask about balance?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "card": {
+      "description": "is the intent to ask about something related to a card or cards?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "cheque": {
+      "description": "is the intent to ask about cheque?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "direct_debit": {
+      "description": "is the intent to ask about direct debit?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "standing_order": {
+      "description": "is the intent asking about a standing order?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "fees_interests": {
+      "description": "is the intent to ask about fees or interests?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "loan": {
+      "description": "is the intent to ask about loans?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "mortgage": {
+      "description": "is the intent asking about mortgage?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "overdraft": {
+      "description": "is the intent to ask about ovedraft?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "withdrawal": {
+      "description": "is the intent to ask about withdrawals?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "pin": {
+      "description": "is the intent to ask something about the pin number?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "refund": {
+      "description": "is the intent to ask about some refund?",
+      "domain": [
+        "banking",
+        "hotels"
+      ]
+    },
+    "check_in": {
+      "description": "is the intent to ask about check in?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "check_out": {
+      "description": "is the intent to ask about check out?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "restaurant": {
+      "description": "is the intent to ask something related to restaurant?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "swimming_pool": {
+      "description": "is the intent to ask something related to the swimming pool?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "parking": {
+      "description": "is the intent to ask something related to parking?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "pets": {
+      "description": "is the intent to ask something related to pets?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "accesibility": {
+      "description": "is the intent to ask something related to accessibility?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "booking": {
+      "description": "is the intent to talk about some booking?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "wifi": {
+      "description": "is the intent to ask something related to wifi or wireless?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "gym": {
+      "description": "is the intent to ask something related to gym?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "spa": {
+      "description": "is the intent to ask something related to spa or beauty services?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "room_ammenities": {
+      "description": "is the intent to ask something related to some room amenities?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "housekeeping": {
+      "description": "is the intent to talk about housekeeping issues?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "room_service": {
+      "description": "is the intent to talk about room service?",
+      "domain": [
+        "hotels"
+      ]
+    }
+  },
+  "slots": {
+    "date": {
+      "description": "What is the specific date mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "date_period": {
+      "description": "What is the time period in days, months or years mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "date_from": {
+      "description": "What is the start date of some period mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "date_to": {
+      "description": "What is the end date of some period mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "time": {
+      "description": "What is the specific time in the day mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "time_from": {
+      "description": "What is the start time of some time period mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "time_to": {
+      "description": "What is the end time of some time period mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "time_period": {
+      "description": "What is the time period in hours or minutes mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "person_name": {
+      "description": "What is the name of a person mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "number": {
+      "description": "What is the number without context mentioned in this sentence?",
+      "domain": [
+        "general"
+      ]
+    },
+    "amount_of_money": {
+      "description": "What is the specific amount of money mentioned in this sentence?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "company_name": {
+      "description": "What is the name of some sort of company mentioned in this sentence?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "shopping_category": {
+      "description": "What is the category of some expense mentioned in this sentence?",
+      "domain": [
+        "banking"
+      ]
+    },
+    "kids": {
+      "description": "what is the number of kids mentioned in this sentence?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "adults": {
+      "description": "what is the number of adults mentioned in this sentence?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "people": {
+      "description": "What is the number of people mentioned in this sentence?",
+      "domain": [
+        "hotels"
+      ]
+    },
+    "rooms": {
+      "description": "What is the number of rooms mentioned in this sentence?",
+      "domain": [
+        "hotels"
+      ]
+    }
+  }
+}
