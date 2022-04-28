@@ -7,7 +7,7 @@
 
 This dataset presents a challenging evaluation environment for dialogue NLU models. It is divided in 2 domains, 
 _banking_ and _hotels_, and provides high quality examples combining a large amount of _multi-label_ intents and slots. 
-More details on the dataset can be found in [our publication](https://www.youtube.com/watch?v=dQw4w9WgXcQ). 
+More details on the dataset can be found in [our publication](https://arxiv.org/abs/2204.13021).
 
 | Domain  | Number of examples               |   Number of intents   | Number of slots  |
 | ---            |   --- | --- |--- |
@@ -155,7 +155,7 @@ We also perform additional _cross-domain_ experiments, in where we train the mod
 ### Citations
 
 When using the NLU++ dataset in your work, please cite [NLU++: A Multi-Label, Slot-Rich, Generalisable 
-Dataset for Natural Language Understanding in Task-Oriented Dialogue](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+Dataset for Natural Language Understanding in Task-Oriented Dialogue](https://arxiv.org/abs/2204.13021).
 
 ```bibtex
 @inproceedings{Casanueva2022,
