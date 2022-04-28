@@ -139,8 +139,8 @@ The values of relative weekdays will be considered to be in the future, e.g.:
 ## Experimental setup
 
 For the experiments presented in the paper we adopt 3 data setups:
-* **20-fold**: We use 1 fold for training and the other 19 folds for testing, doing this 20 times with a different training fold. Then we report the mean results of each fold.
-* **10-fold**: We use 2 folds for training and the other 18 folds for testing, doing this 10 times with 10 pairs of training folds. We use consecutive indices for the training pairs (i.e. `fold0.json` and `fold1.json`, `fold2.json` and `fold3.json`, etc.). Then we report the mean results for each pair of folds.
+* **20-fold**: (or "low") We use 1 fold for training and the other 19 folds for testing, doing this 20 times with a different training fold. Then we report the mean results of each fold.
+* **10-fold**: (or "mid") We use 2 folds for training and the other 18 folds for testing, doing this 10 times with 10 pairs of training folds. We use consecutive indices for the training pairs (i.e. `fold0.json` and `fold1.json`, `fold2.json` and `fold3.json`, etc.). Then we report the mean results for each pair of folds.
 * **Large**: We use 18 folds for training and the other two for testing, doing this 10 times with 10 pairs of testing folds. This can be seen as "inverse" 10-fold.
 
 These setups are designed to replicate the data setups found in production while not overfitting to a small test set.
@@ -150,7 +150,52 @@ We also use 3 domain setups:
 * **HOTELS**: We train and test on hotels data only.
 * **ALL**: We train and test on both domains. The folds for each domain are joined for the different data setups (i.e. banking/fold0.json will be joined with hotels/fold0.json and so on)
 
-We also perform additional _cross-domain_ experiments, in where we train the models on all the data from one of the domains, and we test it in the shared intents of the other domain
+We provide the code to easily load all these setups in `data_loader.py`, e.g.
+
+```python
+from nlupp.data_loader import DataLoader
+
+loader = DataLoader("<PATH_TO_NLUPP_DATA>")
+banking_low = loader.get_data_for_experiment(domain="banking", regime="low")
+```
+
+in this example, the method will return a dictionary with the data already 
+structured for the 20-fold BANKING experiments, i.e.
+```
+banking_low = {
+  0: {"train": train examples_for_fold_0,
+      "test": test_examples_for_fold_0},
+  1: {"train": train examples_for_fold_1,
+      "test": test_examples_for_fold_1},
+  ...,
+  19: {"train": train examples_for_fold_19,
+      "test": test_examples_for_fold_19}
+  }
+```
+The method can be called with `domain = "banking", "hotels" or "all"` and 
+`regime = "low", "mid" or "large"`
+
+To replicate the experiments, simply train 1 model per fold with the returned 
+train-test splits and report the average results.
+
+We also perform additional _cross-domain_ experiments, in where we train the
+models on all the data from one of the domains, and we test it in the generic
+intents of the other domain. To get the cross domain data, pass either 
+`"banking-hotels"` or `"hotels-banking"` as `domain` argument (with no `regime` arg), e.g.:
+```python
+banking_hotels = loader.get_data_for_experiment(domain="banking-hotels")
+```
+
+Which will return
+```
+banking_hotels = {
+  0: {"train": all_banking_examples,
+      "test": all_hotels_examples},
+  }
+```
+
+Note that in this case a single fold is returned. Also, all the non generic 
+intents and slots are removed from the annotations.
 
 ### Citations
 
