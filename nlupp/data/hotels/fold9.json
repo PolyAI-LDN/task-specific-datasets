@@ -1,0 +1,888 @@
+[
+  {
+    "text": "I thought that breakfast starts at 7!",
+    "intents": [
+      "restaurant"
+    ],
+    "slots": {
+      "time_from": {
+        "text": "7",
+        "span": [
+          35,
+          36
+        ],
+        "value": {
+          "hour": 7,
+          "minute": 0
+        }
+      }
+    }
+  },
+  {
+    "text": "thats all, thank you",
+    "intents": [
+      "thank",
+      "end_call"
+    ]
+  },
+  {
+    "text": "there is a huge mess in my room, can you come and clean it asap?",
+    "intents": [
+      "housekeeping"
+    ]
+  },
+  {
+    "text": "how long does a pedicure take?",
+    "intents": [
+      "how_long",
+      "spa"
+    ]
+  },
+  {
+    "text": "is the restaurant adapted to people with reduced mobility?",
+    "intents": [
+      "request_info",
+      "restaurant",
+      "accesibility"
+    ]
+  },
+  {
+    "text": "don't really know that",
+    "intents": [
+      "dont_know"
+    ]
+  },
+  {
+    "text": "Repeat",
+    "intents": [
+      "repeat"
+    ]
+  },
+  {
+    "text": "hi can i make a spa booking for Tuesday at 10 past 16 for 2 people",
+    "intents": [
+      "greet",
+      "make_open_apply_setup_get_activate",
+      "spa",
+      "booking"
+    ],
+    "slots": {
+      "time": {
+        "text": "10 past 16",
+        "span": [
+          43,
+          53
+        ],
+        "value": {
+          "hour": 16,
+          "minute": 10
+        }
+      },
+      "date": {
+        "text": "Tuesday",
+        "span": [
+          32,
+          39
+        ],
+        "value": {
+          "day": 22,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "people": {
+        "text": "2",
+        "span": [
+          58,
+          59
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "yeah, I want to speak to the reception.",
+    "intents": [
+      "affirm",
+      "handoff"
+    ]
+  },
+  {
+    "text": "I wish to check out at your earliest convenience.",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "check_out",
+      "less_lower_before"
+    ]
+  },
+  {
+    "text": "I want a check in after 23:15",
+    "intents": [
+      "check_in",
+      "more_higher_after"
+    ],
+    "slots": {
+      "time": {
+        "text": "23:15",
+        "span": [
+          24,
+          29
+        ],
+        "value": {
+          "hour": 23,
+          "minute": 15
+        }
+      }
+    }
+  },
+  {
+    "text": "When do I have to tell you the exact number of people coming?",
+    "intents": [
+      "when"
+    ]
+  },
+  {
+    "text": "I might be slightly late for my dinner reservation, please delay it to 10:10 in the morning.",
+    "intents": [
+      "restaurant",
+      "booking",
+      "more_higher_after",
+      "change"
+    ],
+    "slots": {
+      "time": {
+        "text": "10:10 in the morning",
+        "span": [
+          71,
+          91
+        ],
+        "value": {
+          "hour": 10,
+          "minute": 10
+        }
+      }
+    }
+  },
+  {
+    "text": "i haven't done a reservation before",
+    "intents": [
+      "new",
+      "booking"
+    ]
+  },
+  {
+    "text": "what is the location of the pool",
+    "intents": [
+      "request_info",
+      "swimming_pool"
+    ]
+  },
+  {
+    "text": "what is your pet policy",
+    "intents": [
+      "request_info",
+      "pets"
+    ]
+  },
+  {
+    "text": "definitely not",
+    "intents": [
+      "deny"
+    ]
+  },
+  {
+    "text": "The WiFi isn't working",
+    "intents": [
+      "wifi",
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "ac is totally broken",
+    "intents": [
+      "room_ammenities",
+      "wrong_notworking_notshowing"
+    ]
+  },
+  {
+    "text": "1 room, for me only but with ac system please.",
+    "intents": [
+      "room_ammenities"
+    ],
+    "slots": {
+      "adults": {
+        "text": "me",
+        "span": [
+          12,
+          14
+        ],
+        "value": 1
+      },
+      "rooms": {
+        "text": "1",
+        "span": [
+          0,
+          1
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "i think i forgot my phone in the gym",
+    "intents": [
+      "lost_stolen",
+      "gym"
+    ]
+  },
+  {
+    "text": "how much is dinner?",
+    "intents": [
+      "how_much",
+      "restaurant"
+    ]
+  },
+  {
+    "text": "for 4",
+    "slots": {
+      "number": {
+        "text": "4",
+        "span": [
+          4,
+          5
+        ],
+        "value": 4
+      }
+    }
+  },
+  {
+    "text": "i can't seem to find my watch",
+    "intents": [
+      "lost_stolen"
+    ]
+  },
+  {
+    "text": "i'd like to hear about overnight parking",
+    "intents": [
+      "request_info",
+      "parking"
+    ],
+    "slots": {
+      "time_period": {
+        "text": "overnight",
+        "span": [
+          23,
+          32
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "hour": 18,
+            "minute": 0
+          },
+          "to": {
+            "hour": 6,
+            "minute": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "text": "keep that booking under greogry for the next 24 hours please!",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "booking"
+    ],
+    "slots": {
+      "time_period": {
+        "text": "next 24 hours",
+        "span": [
+          40,
+          53
+        ],
+        "values": {
+          "type": "absolute",
+          "from": {
+            "hour": 10,
+            "minute": 0
+          },
+          "to": {
+            "hour": 10,
+            "minute": 0
+          }
+        }
+      },
+      "person_name": {
+        "text": "greogry",
+        "span": [
+          24,
+          31
+        ],
+        "value": "greogry"
+      }
+    }
+  },
+  {
+    "text": "I am ashok arwood, I need to cancel my 6 55 morning restaurant reservation",
+    "intents": [
+      "cancel_close_leave_freeze",
+      "restaurant",
+      "booking"
+    ],
+    "slots": {
+      "time": {
+        "text": "6 55 morning",
+        "span": [
+          39,
+          51
+        ],
+        "value": {
+          "hour": 6,
+          "minute": 55
+        }
+      },
+      "person_name": {
+        "text": "ashok arwood",
+        "span": [
+          5,
+          17
+        ],
+        "value": "ashok arwood"
+      }
+    }
+  },
+  {
+    "text": "I already made a booking under the same name.",
+    "intents": [
+      "booking",
+      "existing"
+    ]
+  },
+  {
+    "text": "Does room service also works if I order something to spa?",
+    "intents": [
+      "room_service",
+      "spa",
+      "request_info"
+    ]
+  },
+  {
+    "text": "Would 25 past 1 p.m. be okay",
+    "intents": [
+      "request_info"
+    ],
+    "slots": {
+      "time": {
+        "text": "25 past 1 p.m.",
+        "span": [
+          6,
+          20
+        ],
+        "value": {
+          "hour": 13,
+          "minute": 25
+        }
+      }
+    }
+  },
+  {
+    "text": "Room service order to room 1032",
+    "intents": [
+      "room_service",
+      "make_open_apply_setup_get_activate"
+    ]
+  },
+  {
+    "text": "Ive got a reservation for 2 nights starting on 23rd of Feb",
+    "intents": [
+      "existing",
+      "booking"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "2 nights",
+        "span": [
+          26,
+          34
+        ],
+        "values": {
+          "type": "relative",
+          "days": 2
+        }
+      },
+      "date_from": {
+        "text": "23rd of Feb",
+        "span": [
+          47,
+          58
+        ],
+        "value": {
+          "day": 23,
+          "month": 2,
+          "year": 2023
+        }
+      }
+    }
+  },
+  {
+    "text": "I'd like to book a table at the hotel restaurant for the two of us.",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "restaurant",
+      "booking"
+    ],
+    "slots": {
+      "people": {
+        "text": "two of us",
+        "span": [
+          57,
+          66
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "change booking",
+    "intents": [
+      "change",
+      "booking"
+    ]
+  },
+  {
+    "text": "change dates of a room booking",
+    "intents": [
+      "change",
+      "booking"
+    ]
+  },
+  {
+    "text": "Please could I book a room for 4 people, 2 nights, 23rd Mar?",
+    "intents": [
+      "booking",
+      "make_open_apply_setup_get_activate"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "2 nights",
+        "span": [
+          41,
+          49
+        ],
+        "values": {
+          "type": "relative",
+          "days": 2
+        }
+      },
+      "date_from": {
+        "text": "23rd Mar",
+        "span": [
+          51,
+          59
+        ],
+        "value": {
+          "day": 23,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "people": {
+        "text": "4",
+        "span": [
+          31,
+          32
+        ],
+        "value": 4
+      },
+      "rooms": {
+        "text": "a room",
+        "span": [
+          20,
+          26
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "14 April",
+    "slots": {
+      "date": {
+        "text": "14 April",
+        "span": [
+          0,
+          8
+        ],
+        "value": {
+          "day": 14,
+          "month": 4,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "A room with two beds for the weekend of the 5th",
+    "slots": {
+      "date_period": {
+        "text": "weekend",
+        "span": [
+          29,
+          36
+        ],
+        "values": {
+          "type": "relative",
+          "days": 2
+        }
+      },
+      "date_from": {
+        "text": "5th",
+        "span": [
+          44,
+          47
+        ],
+        "value": {
+          "day": 5,
+          "month": 4,
+          "year": 2022
+        }
+      },
+      "rooms": {
+        "text": "A room",
+        "span": [
+          0,
+          6
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "5 nights, 2 rooms for 2 adults and the kids",
+    "slots": {
+      "date_period": {
+        "text": "5 nights",
+        "span": [
+          0,
+          8
+        ],
+        "values": {
+          "type": "relative",
+          "days": 5
+        }
+      },
+      "adults": {
+        "text": "2",
+        "span": [
+          22,
+          23
+        ],
+        "value": 2
+      },
+      "rooms": {
+        "text": "2",
+        "span": [
+          10,
+          11
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "Can I get a honeymoon suite from now until next Tuesday, just for one?",
+    "intents": [
+      "make_open_apply_setup_get_activate",
+      "booking"
+    ],
+    "slots": {
+      "date_from": {
+        "text": "now",
+        "span": [
+          33,
+          36
+        ],
+        "value": {
+          "day": 15,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "next Tuesday",
+        "span": [
+          43,
+          55
+        ],
+        "value": {
+          "day": 22,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "adults": {
+        "text": "one",
+        "span": [
+          66,
+          69
+        ],
+        "value": 1
+      },
+      "rooms": {
+        "text": "a honeymoon suite",
+        "span": [
+          10,
+          27
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "book in 2 days for 2 nights",
+    "intents": [
+      "booking",
+      "make_open_apply_setup_get_activate"
+    ],
+    "slots": {
+      "date_period": {
+        "text": "2 nights",
+        "span": [
+          19,
+          27
+        ],
+        "values": {
+          "type": "relative",
+          "days": 2
+        }
+      },
+      "date_from": {
+        "text": "in 2 days",
+        "span": [
+          5,
+          14
+        ],
+        "value": {
+          "day": 17,
+          "month": 3,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "we want to stay 3 nights",
+    "slots": {
+      "date_period": {
+        "text": "3 nights",
+        "span": [
+          16,
+          24
+        ],
+        "values": {
+          "type": "relative",
+          "days": 3
+        }
+      }
+    }
+  },
+  {
+    "text": "2 adults, 2 beds for 2 nights",
+    "slots": {
+      "date_period": {
+        "text": "2 nights",
+        "span": [
+          21,
+          29
+        ],
+        "values": {
+          "type": "relative",
+          "days": 2
+        }
+      },
+      "adults": {
+        "text": "2",
+        "span": [
+          0,
+          1
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "We have 7 kids and want to stay for a week starting on 2nd of June 2013",
+    "slots": {
+      "date_period": {
+        "text": "a week",
+        "span": [
+          36,
+          42
+        ],
+        "values": {
+          "type": "relative",
+          "days": 7
+        }
+      },
+      "date_from": {
+        "text": "2nd of June 2013",
+        "span": [
+          55,
+          71
+        ],
+        "value": {
+          "day": 2,
+          "month": 6,
+          "year": 2013
+        }
+      },
+      "kids": {
+        "text": "7",
+        "span": [
+          8,
+          9
+        ],
+        "value": 7
+      },
+      "adults": {
+        "text": "We",
+        "span": [
+          0,
+          2
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "Two adults traveling with Two children",
+    "slots": {
+      "kids": {
+        "text": "Two",
+        "span": [
+          26,
+          29
+        ],
+        "value": 2
+      },
+      "adults": {
+        "text": "Two",
+        "span": [
+          0,
+          3
+        ],
+        "value": 2
+      }
+    }
+  },
+  {
+    "text": "me with my teenager",
+    "slots": {
+      "kids": {
+        "text": "my teenager",
+        "span": [
+          8,
+          19
+        ],
+        "value": 1
+      },
+      "adults": {
+        "text": "me",
+        "span": [
+          0,
+          2
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "just one person",
+    "slots": {
+      "adults": {
+        "text": "one",
+        "span": [
+          5,
+          8
+        ],
+        "value": 1
+      }
+    }
+  },
+  {
+    "text": "from Sep the 14th until Sep 17",
+    "slots": {
+      "date_from": {
+        "text": "Sep the 14th",
+        "span": [
+          5,
+          17
+        ],
+        "value": {
+          "day": 14,
+          "month": 9,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "Sep 17",
+        "span": [
+          24,
+          30
+        ],
+        "value": {
+          "day": 17,
+          "month": 9,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "Monday till Wednesday",
+    "slots": {
+      "date_from": {
+        "text": "Monday",
+        "span": [
+          0,
+          6
+        ],
+        "value": {
+          "day": 21,
+          "month": 3,
+          "year": 2022
+        }
+      },
+      "date_to": {
+        "text": "Wednesday",
+        "span": [
+          12,
+          21
+        ],
+        "value": {
+          "day": 16,
+          "month": 3,
+          "year": 2022
+        }
+      }
+    }
+  },
+  {
+    "text": "check out on the 23rd",
+    "slots": {
+      "date_to": {
+        "text": "23rd",
+        "span": [
+          17,
+          21
+        ],
+        "value": {
+          "day": 23,
+          "month": 3,
+          "year": 2022
+        }
+      }
+    }
+  }
+]
