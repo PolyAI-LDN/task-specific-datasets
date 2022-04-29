@@ -4,7 +4,11 @@
 
 *A collection of NLU datasets in constrained domains.*
 
-## Datasets
+**List of datasets:**
+- [Banking](#banking): online banking queries annotated with their corresponding intents.
+- [Span Extraction](#span-extraction): the data used for the SpanConvert paper.
+- [NLU++](/tree/master/nlupp): a challenging evaluation environment for dialogue NLU models (multi-domain, multi-label intents and slots).
+- [EVI](https://github.com/PolyAI-LDN/evi-paper): a challenging multilingual dataset for knowledge-based enrolment, identification, and identification in spoken dialogue systems.
 
 ## Banking
 
