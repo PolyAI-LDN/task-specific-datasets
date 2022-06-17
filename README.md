@@ -130,6 +130,58 @@ dstc8/RentalCars_1/train_2.json,218
 dstc8/RentalCars_1/train_3.json,109
 dstc8/RentalCars_1/train_4.json,54
 ```
+### Evaluation
+Below is some code that should explain how span-based F1 is calculated:
+
+(pasted from a [previous issue](https://github.com/PolyAI-LDN/task-specific-datasets/issues/7))
+
+```python3
+
+true = [ [("time", 1, 10)] , [("time", 1, 10), ("people", 12, 15)]]
+pred = [ [("time", 1, 10)] , [("time", 1, 9), ("people", 12, 15)]]
+slot_types = [ "time", "people"]
+slot_type_f1_scores = []
+
+import numpy as np
+
+for slot_type in slot_types:
+    predictions_for_slot = [
+        [p for p in prediction if p[0] == slot_type] for prediction in pred
+    ]
+    labels_for_slot = [
+        [l for l in label if l[0] == slot_type] for label in true
+    ]
+
+    proposal_made = [len(p) > 0 for p in predictions_for_slot]
+    has_label = [len(l) > 0 for l in labels_for_slot]
+    prediction_correct = [
+        prediction == label for prediction, label in zip(predictions_for_slots, labels_for_slots)
+    ]
+
+    true_positives = sum([
+        int(proposed and correct)
+        for proposed, correct in zip(proposal_made, prediction_correct)
+    ])
+    num_predicted = sum([int(proposed) for proposed in proposal_made])
+    num_to_recall = sum([int(hl) for hl in has_label])
+
+    precision = true_positives / (1e-5 + num_predicted)
+    recall = true_positives / (1e-5 + num_to_recall)
+
+    f1_score = 2 * precision * recall / (1e-5 + precision + recall)
+    slot_type_f1_scores.append(f1_score)
+
+    print(f'scores for {slot_type}:')
+    print(f'precision:{precision}:')
+    print(f'recall:{recall}:')
+    print(f'f1_score:{f1_score}:')
+    print('=====\n')
+
+overall_f1 = np.mean(slot_type_f1_scores)
+
+print(f'mean f1: {overall_f1}')
+```
+
 ### Citations
 
 When using the datasets in your work, please cite [the Span-ConveRT paper](https://arxiv.org/abs/2005.08866).
