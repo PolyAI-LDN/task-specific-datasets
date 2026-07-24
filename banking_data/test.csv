@@ -2640,7 +2640,7 @@ Will I be able to get a disposable virtual card as well?,get_disposable_virtual_
 Hello! I need to order a disposable virtual card. Where can I do that at?,get_disposable_virtual_card
 where do I request a disposable virtual card?,get_disposable_virtual_card
 Can i get a throw away card,get_disposable_virtual_card
-how many transactions can i make with a disposable card,get_disposable_virtual_card
+how many transactions can i make with a disposable card,disposable_card_limits
 What are disposable cards?,get_disposable_virtual_card
 what's the process for getting a disposable virtual card?,get_disposable_virtual_card
 The app denied my topped up.,top_up_failed
