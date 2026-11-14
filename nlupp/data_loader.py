@@ -110,7 +110,7 @@ class DataLoader:
                     test_examples += self._data[_BANKING][fold_j]
                 if domain in [_HOTELS, _ALL]:
                     test_examples += self._data[_HOTELS][fold_j]
-            fold_key = fold_i if regime == _LOW else fold_i / 2
+            fold_key = fold_i if regime == _LOW else fold_i // 2
             experiment_data[fold_key] = {"train": train_examples,
                                          "test": test_examples}
         return experiment_data
