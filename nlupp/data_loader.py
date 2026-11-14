@@ -1,4 +1,5 @@
 """Methods for loading the different data setups"""
+import copy
 import json
 import os
 
@@ -33,8 +34,8 @@ class DataLoader:
     def _get_cross_domain_data(self, source_domain, target_domain):
         train_examples, test_examples = [], []
         for fold_i in range(20):
-            train_examples += self._data[source_domain][fold_i]
-            test_examples += self._data[target_domain][fold_i]
+            train_examples += copy.deepcopy(self._data[source_domain][fold_i])
+            test_examples += copy.deepcopy(self._data[target_domain][fold_i])
 
         # delete non-generic slots and values
         generic_intents = []
